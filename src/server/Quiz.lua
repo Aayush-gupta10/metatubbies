@@ -2,7 +2,8 @@ local Quiz = {}
 
 quizTable = {}
 users = {}
-
+leaderBoard = {}
+quizState = {}
 
 -- [[ Setup a quiz ]]
 function Quiz.setupQuiz(quizName, quizLocation)
@@ -13,7 +14,10 @@ function Quiz.setupQuiz(quizName, quizLocation)
         quizTable[quizName]["location"] = quizLocation
         quizTable[quizName]["questions"] = {}
         quizTable[quizName]["questionCount"] = 0
+        quizState[quizName] = {}
         users[quizName] = {}
+        users[quizName]["userlist"] = {}
+        users[quizName]["userCount"] = 0
     end
     return quizTable
 end
@@ -55,43 +59,71 @@ function Quiz.addUser(quizName, userId)
     then
         error("The quiz has already been started")
     end
-    users[quizName][userId] = {}
+    count = users[quizName]["userCount"]
+    users[quizName]["userlist"][userId] = {userId = userId, score = 0,rank = "-"}
+    users[quizName]["userCount"] = users[quizName]["userCount"]  + 1
 end
 
 function Quiz.removeUser(quizName, userId)
-    users[quizName][userId] = nil
+    users[quizName]["userCount"] = users[quizName]["userCount"]  - 1
+    users[quizName]["userlist"][userId] = nil
 end
 
 function Quiz.getUserScore(quizName, userId)
-    return users[quizName][userId]["score"] 
+    return users[quizName]["userlist"][userId]["score"] 
 end
 
-function Quiz.setUserScore(userId, score)
-    users[userId]["score"] = score
+function Quiz.setUserScore(quizName, userId, score)
+    users[quizName]["userlist"][userId]["score"] = score
 end
 
-function Quiz.addUserScore(userId, scoreToBeAdded)
-    users[userId]["score"] = users[userId]["score"] + scoreToBeAdded
+function Quiz.addUserScore(quizName, userId, scoreToBeAdded)
+    users[quizName]["userlist"][userId]["score"] = users[quizName]["userlist"][userId]["score"] + scoreToBeAdded
 end
 
 function Quiz.startQuiz(quizName)
     quizState[quizName]["isQuizStarted"] = true
     quizState[quizName]["currentQuestionIndex"] = 0
+    leaderBoard[quizName] = {}
+    local index = 0
+    for userId, user in pairs(users[quizName]["userlist"]) 
+    do
+        table.insert(leaderBoard[quizName],user)
+    end
+end
+
+function Quiz.getLeaderboard(quizName)
+    return leaderBoard[quizName]
+end
+
+function Quiz.refreshLeaderboard(quizName)
+    table.sort(leaderBoard[quizName], function (k1, k2) return k1.score > k2.score end )
+    local rank = 1
+    for userId, user in pairs(leaderBoard[quizName])
+    do 
+        user.rank = rank
+        rank = rank + 1
+    end
+
+    return leaderBoard[quizName]
 end
 
 function Quiz.getNextQuestion(quizName)
     local currentQuestionIndex = quizState[quizName]["currentQuestionIndex"]
 
     if(currentQuestionIndex == quizTable[quizName]["questionCount"]) then
-        error("No more questions")
+        quizState[quizName]["isQuizEnded"] = true
+        return "The quiz is over"
     end
-    local nextQuestion = quizTable[quizName][questions][currentQuestionIndex]
+    local nextQuestion = quizTable[quizName]["questions"][currentQuestionIndex]
     quizState[quizName]["currentQuestionIndex"] = quizState[quizName]["currentQuestionIndex"] + 1
     return nextQuestion
 end
 
-function Quiz.answerQuestion(quizName, userId, questionIndex, optionSelected)
-    error("Not implemented")
+function Quiz.isAnswerCorrect(quizName, questionIndex, optionSelected)
+    local correctOption = quizTable[quizName]["questions"][questionIndex]["correctOption"]
+    if correctOption == optionSelected then return true end
+    return false
 end
 
 return Quiz
