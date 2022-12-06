@@ -1,0 +1,369 @@
+<roblox version="4">
+  <Item class="Lighting" referent="0">
+    <Properties>
+      <string name="Name">Lighting</string>
+      <Color3 name="Ambient">
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+      </Color3>
+      <float name="Brightness">2</float>
+      <bool name="GlobalShadows">true</bool>
+      <bool name="Outlines">false</bool>
+      <token name="Technology">1</token>
+    </Properties>
+  </Item>
+  <Item class="ReplicatedStorage" referent="1">
+    <Properties>
+      <string name="Name">ReplicatedStorage</string>
+    </Properties>
+    <Item class="Folder" referent="2">
+      <Properties>
+        <string name="Name">Common</string>
+      </Properties>
+      <Item class="ModuleScript" referent="3">
+        <Properties>
+          <string name="Name">Hello</string>
+          <string name="Source">return function()
+	print("Hello, world!")
+end</string>
+        </Properties>
+      </Item>
+    </Item>
+  </Item>
+  <Item class="ServerScriptService" referent="4">
+    <Properties>
+      <string name="Name">ServerScriptService</string>
+    </Properties>
+    <Item class="Script" referent="5">
+      <Properties>
+        <string name="Name">Server</string>
+        <string name="Source"><![CDATA[quiz = require("Quiz")
+
+function dump(o)
+    if type(o) == 'table' then
+       local s = '{ '
+       for k,v in pairs(o) do
+          if type(k) ~= 'number' then k = '"'..k..'"' end
+          s = s .. '['..k..'] = ' .. dump(v) .. ','
+       end
+       return s .. '} '
+    else
+       return tostring(o)
+    end
+end
+
+location = { }
+location["x"] = 100
+location["y"] = 100
+
+-- [ Quiz flow sample ]
+-- [ Setup a new quiz, quiz name should be unique, location in above format ]
+quizTable = quiz.setupQuiz("Sample", location)
+
+-- [ Create and add questions in the quiz ]
+question = quiz.createQuestion(
+                "How many edges do a triangle has?", 
+                    "One", 
+                    "Two", 
+                    "Three", 
+                    "Four", 
+                    "C")
+
+quiz.addQuestion("Sample", question)
+
+question = quiz.createQuestion(
+                "How many letters are in the english alphabet?", 
+                    "25", 
+                    "26", 
+                    "21", 
+                    "20", 
+                    "B")
+
+quiz.addQuestion("Sample", question)
+
+question = quiz.createQuestion(
+                "What is 10 times 20?", 
+                    "200", 
+                    "2010", 
+                    "1020", 
+                    "1010", 
+                    "A")
+
+quiz.addQuestion("Sample", question)
+
+-- [ Add users to a quiz who teleports to quiz]
+quiz.addUser("Sample", "User 1")
+quiz.addUser("Sample", "User 2")
+quiz.addUser("Sample", "User 3")
+quiz.addUser("Sample", "User 4")
+
+-- [ Remove users from quiz who leave ]
+quiz.removeUser("Sample", "User 3")
+
+-- [ Start the quiz ]
+quiz.startQuiz("Sample")
+
+-- [ Get leaderBoard ]
+local leaderBoardObj = quiz.getLeaderboard("Sample")
+-- print(dump(leaderBoard))
+
+-- [ Get next question ]
+local nextQuestion = quiz.getNextQuestion("Sample")
+print(nextQuestion.questionStatement)
+print(nextQuestion.option1)
+print(nextQuestion.option2)
+print(nextQuestion.option3)
+print(nextQuestion.option4)
+
+-- [ Answer question ]
+local questionIndex = quizState["Sample"]["currentQuestionIndex"] - 1
+
+local user1answer = quiz.isAnswerCorrect("Sample", questionIndex, "B")
+local user2answer = quiz.isAnswerCorrect("Sample", questionIndex, "C")
+local user4answer = quiz.isAnswerCorrect("Sample", questionIndex, "D")
+
+
+-- [Update score ]
+if user1answer then quiz.addUserScore("Sample", "User 1", 5) end
+if user2answer then quiz.addUserScore("Sample", "User 2", 5) end
+if user4answer then quiz.addUserScore("Sample", "User 4", 5) end
+
+
+leaderBoardObj = quiz.refreshLeaderboard("Sample")
+print(dump(leaderBoardObj))
+
+nextQuestion = quiz.getNextQuestion("Sample")
+print(nextQuestion.questionStatement)
+print(nextQuestion.option1)
+print(nextQuestion.option2)
+print(nextQuestion.option3)
+print(nextQuestion.option4)
+
+questionIndex = quizState["Sample"]["currentQuestionIndex"] - 1
+
+user1answer = quiz.isAnswerCorrect("Sample", questionIndex, "B")
+user2answer = quiz.isAnswerCorrect("Sample", questionIndex, "C")
+user4answer = quiz.isAnswerCorrect("Sample", questionIndex, "D")
+
+
+-- [Update score ]
+if user1answer then quiz.addUserScore("Sample", "User 1", 5) end
+if user2answer then quiz.addUserScore("Sample", "User 2", 5) end
+if user4answer then quiz.addUserScore("Sample", "User 4", 5) end
+
+leaderBoardObj = quiz.refreshLeaderboard("Sample")
+print(dump(leaderBoardObj))
+
+nextQuestion = quiz.getNextQuestion("Sample")
+print(nextQuestion.questionStatement)
+print(nextQuestion.option1)
+print(nextQuestion.option2)
+print(nextQuestion.option3)
+print(nextQuestion.option4)
+
+questionIndex = quizState["Sample"]["currentQuestionIndex"] - 1
+
+user1answer = quiz.isAnswerCorrect("Sample", questionIndex, "B")
+user2answer = quiz.isAnswerCorrect("Sample", questionIndex, "A")
+user4answer = quiz.isAnswerCorrect("Sample", questionIndex, "D")
+
+
+-- [Update score ]
+if user1answer then quiz.addUserScore("Sample", "User 1", 5) end
+if user2answer then quiz.addUserScore("Sample", "User 2", 5) end
+if user4answer then quiz.addUserScore("Sample", "User 4", 5) end
+
+leaderBoardObj = quiz.refreshLeaderboard("Sample")
+print(dump(leaderBoardObj))
+
+
+nextQuestion = quiz.getNextQuestion("Sample")
+print(nextQuestion)
+]]></string>
+      </Properties>
+      <Item class="ModuleScript" referent="6">
+        <Properties>
+          <string name="Name">Quiz</string>
+          <string name="Source"><![CDATA[local Quiz = {}
+
+quizTable = {}
+users = {}
+leaderBoard = {}
+quizState = {}
+
+-- [[ Setup a quiz ]]
+function Quiz.setupQuiz(quizName, quizLocation)
+    if (quizTable[quizName] ~= nil) then
+        error("A quiz with same name already exists")
+    else
+        quizTable[quizName] = {}
+        quizTable[quizName]["location"] = quizLocation
+        quizTable[quizName]["questions"] = {}
+        quizTable[quizName]["questionCount"] = 0
+        quizState[quizName] = {}
+        users[quizName] = {}
+        users[quizName]["userlist"] = {}
+        users[quizName]["userCount"] = 0
+    end
+    return quizTable
+end
+
+function Quiz.endQuiz(quizName)
+    quizTable[quizName]["location"] = nil
+    quizTable[quizName]["questions"] = nil
+    quizTable[quizName]["questionCount"] =nil
+    users[quizName] = nil
+    quizTable[quizName] = nil
+end
+
+-- [[ Add a question to the a quiz ]]
+function Quiz.addQuestion(quizName, question)
+    if (quizTable[quizName] == nil) then
+        error("The quiz doesnt exist")
+    else
+        local questionCount = quizTable[quizName]["questionCount"]
+        quizTable[quizName]["questionCount"] = questionCount + 1
+        quizTable[quizName]["questions"][questionCount] = question
+    end
+end
+
+-- [[ Create question ]]
+function Quiz.createQuestion(questionStatement, option1, option2, option3, option4, correctOption)
+    local question = {}
+    question["questionStatement"] = questionStatement
+    question["option1"] = option1
+    question["option2"] = option2
+    question["option3"] = option3
+    question["option4"] = option4
+    question["correctOption"] = correctOption
+    return question
+end
+
+-- [[ User cannot be added after the quiz starts]]
+function Quiz.addUser(quizName, userId)
+    if(quizState[quizName]["isQuizStarted"] == true)
+    then
+        error("The quiz has already been started")
+    end
+    count = users[quizName]["userCount"]
+    users[quizName]["userlist"][userId] = {userId = userId, score = 0,rank = "-"}
+    users[quizName]["userCount"] = users[quizName]["userCount"]  + 1
+end
+
+function Quiz.removeUser(quizName, userId)
+    users[quizName]["userCount"] = users[quizName]["userCount"]  - 1
+    users[quizName]["userlist"][userId] = nil
+end
+
+function Quiz.getUserScore(quizName, userId)
+    return users[quizName]["userlist"][userId]["score"] 
+end
+
+function Quiz.setUserScore(quizName, userId, score)
+    users[quizName]["userlist"][userId]["score"] = score
+end
+
+function Quiz.addUserScore(quizName, userId, scoreToBeAdded)
+    users[quizName]["userlist"][userId]["score"] = users[quizName]["userlist"][userId]["score"] + scoreToBeAdded
+end
+
+function Quiz.startQuiz(quizName)
+    quizState[quizName]["isQuizStarted"] = true
+    quizState[quizName]["currentQuestionIndex"] = 0
+    leaderBoard[quizName] = {}
+    local index = 0
+    for userId, user in pairs(users[quizName]["userlist"]) 
+    do
+        table.insert(leaderBoard[quizName],user)
+    end
+end
+
+function Quiz.getLeaderboard(quizName)
+    return leaderBoard[quizName]
+end
+
+function Quiz.refreshLeaderboard(quizName)
+    table.sort(leaderBoard[quizName], function (k1, k2) return k1.score > k2.score end )
+    local rank = 1
+    for userId, user in pairs(leaderBoard[quizName])
+    do 
+        user.rank = rank
+        rank = rank + 1
+    end
+
+    return leaderBoard[quizName]
+end
+
+function Quiz.getNextQuestion(quizName)
+    local currentQuestionIndex = quizState[quizName]["currentQuestionIndex"]
+
+    if(currentQuestionIndex == quizTable[quizName]["questionCount"]) then
+        quizState[quizName]["isQuizEnded"] = true
+        return "The quiz is over"
+    end
+    local nextQuestion = quizTable[quizName]["questions"][currentQuestionIndex]
+    quizState[quizName]["currentQuestionIndex"] = quizState[quizName]["currentQuestionIndex"] + 1
+    return nextQuestion
+end
+
+function Quiz.isAnswerCorrect(quizName, questionIndex, optionSelected)
+    local correctOption = quizTable[quizName]["questions"][questionIndex]["correctOption"]
+    if correctOption == optionSelected then return true end
+    return false
+end
+
+return Quiz
+
+]]></string>
+        </Properties>
+      </Item>
+    </Item>
+  </Item>
+  <Item class="SoundService" referent="7">
+    <Properties>
+      <string name="Name">SoundService</string>
+      <bool name="RespectFilteringEnabled">true</bool>
+    </Properties>
+  </Item>
+  <Item class="StarterPlayer" referent="8">
+    <Properties>
+      <string name="Name">StarterPlayer</string>
+    </Properties>
+    <Item class="StarterPlayerScripts" referent="9">
+      <Properties>
+        <string name="Name">StarterPlayerScripts</string>
+      </Properties>
+      <Item class="LocalScript" referent="10">
+        <Properties>
+          <string name="Name">Client</string>
+          <string name="Source">print("Hello world, from client!")</string>
+        </Properties>
+      </Item>
+    </Item>
+  </Item>
+  <Item class="Workspace" referent="11">
+    <Properties>
+      <string name="Name">Workspace</string>
+      <bool name="FilteringEnabled">true</bool>
+    </Properties>
+    <Item class="Part" referent="12">
+      <Properties>
+        <string name="Name">Baseplate</string>
+        <bool name="Anchored">true</bool>
+        <Color3uint8 name="Color3uint8">6512483</Color3uint8>
+        <bool name="Locked">true</bool>
+        <Vector3 name="Position">
+          <X>0</X>
+          <Y>-10</Y>
+          <Z>0</Z>
+        </Vector3>
+        <Vector3 name="size">
+          <X>512</X>
+          <Y>20</Y>
+          <Z>512</Z>
+        </Vector3>
+      </Properties>
+    </Item>
+  </Item>
+</roblox>
