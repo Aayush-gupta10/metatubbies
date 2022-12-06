@@ -1,3 +1,21 @@
+local Pad = game.Workspace.SmallHouse2.Kitchen_floor
+
+game.Workspace.SmallHouse1.Kitchen_floor.Touched:Connect(function(hit)
+	local Player = game.Players:GetPlayerFromCharacter(hit.Parent)
+	if Player then
+		local CurrentlyTeleporting = Player.Character:FindFirstChild("CurrentlyTeleporting")
+		if not CurrentlyTeleporting then return end
+		
+		if not CurrentlyTeleporting.Value then
+			CurrentlyTeleporting.Value = true
+         print("teleporting.....")
+			Player.Character.HumanoidRootPart.CFrame = Pad.CFrame + Vector3.new(0,5,0)
+			wait(3)
+			CurrentlyTeleporting.Value = false
+		end
+	end
+end)
+
 quiz = require("Quiz")
 
 function dump(o)
