@@ -1,216 +1,184 @@
-local Players = game:GetService("Players")
+local Quiz = {}
 
-local function replaceClothes(player)
-	local character = player.Character
-	if character then
-		-- look for shirts / pants
-		local shirt = character:FindFirstChildOfClass("Shirt")
-		local pants = character:FindFirstChildOfClass("Pants")
-		local head = character:FindFirstChildOfClass("Head")
+quizTable = {}
+users = {}
+leaderBoard = {}
+quizState = {}
 
 
-		-- create shirts / pants if they don't exist
-		if not shirt then
-			shirt = Instance.new("Shirt")
-			shirt.Parent = character
-		end
-		if not pants then
-			pants = Instance.new("Pants")
-			pants.Parent = character
-		end
+--Setup the quizes
+
+local nagarro_quiz = "Nagarro"
+local nagarro_quiz_location = {0,0}
+
+setupQuiz(nagarro_quiz,nagarro_quiz_location)
+
+local nq_question1 = "When was Nagarro found?"
+local nq_nq1_op1 = "1996"
+local nq_nq1_op2 = "1986"
+local nq_nq1_op3 = "1992"
+local nq_nq1_op4 = "2004"
+
+nq_q1 = createQuestion(nq_question1, nq_nq1_op1, nq_nq1_op2, nq_nq1_op3, nq_nq1_op4, "A")
+addQuestion(nagarro_quiz, nq_q1)
+
+local nq_question2 = "Where is Nagarro Headquarters located?"
+local nq_nq2_op1 = "Gurugram, India"
+local nq_nq2_op2 = "Frankfurt, Germany"
+local nq_nq2_op3 = "Munich, Germany"
+local nq_nq2_op4 = "Seattle, USA"
+
+nq_q2 = createQuestion(nq_question2, nq_nq2_op1, nq_nq2_op2, nq_nq2_op3, nq_nq2_op4, "C")
+addQuestion(nagarro_quiz, nq_q2)
+
+local nq_question3 = "In which stock exchange is Nagarro listed?"
+local nq_nq3_op1 = "National Stock Exchange, India"
+local nq_nq3_op2 = "Bombay Stock Exchange, India"
+local nq_nq3_op3 = "Frankfurt Stock Exchange, Germany"
+local nq_nq3_op4 = "All of the above"
+
+nq_q3 = createQuestion(nq_question3, nq_nq3_op1, nq_nq3_op2, nq_nq3_op3, nq_nq3_op4, "C")
+addQuestion(nagarro_quiz, nq_q3)
+
+local nq_question4 = "Who is the CEO of Nagarro?"
+local nq_nq4_op1 = "Manas Fuloria"
+local nq_nq4_op2 = "Manas Human"
+local nq_nq4_op3 = "Manas Chopra"
+local nq_nq4_op4 = "Manas Gupta"
+
+nq_q4 = createQuestion(nq_question4, nq_nq4_op1, nq_nq4_op2, nq_nq4_op3, nq_nq4_op4, "B")
+addQuestion(nagarro_quiz, nq_q4)
+
+local nq_question5 = "How many employees does Nagarro has globally (Approx.)?"
+local nq_nq5_op1 = "1000"
+local nq_nq5_op2 = "4000"
+local nq_nq5_op3 = "8000"
+local nq_nq5_op4 = "17000"
+
+nq_q1 = createQuestion(nq_question5, nq_nq5_op1, nq_nq5_op2, nq_nq5_op3, nq_nq5_op4, "D")
+addQuestion(nagarro_quiz, nq_q5)
 
 
-		hatAccessory = Instance.new("HatAccessory")
-		hatAccessory.Parent = character
-
-		shirt.Color3 = Color3(200, 50, 50)
-		pants.Color3 = Color3(200, 50, 50)
-		head.Color3 = Color3(200, 50, 50)
-		hatAccessory.Color3 = Color3(200, 50, 50)
-
-
-
-		-- reset shirt / pants content ids
-		-- shirt.ShirtTemplate = "http://www.roblox.com/asset/?id=83326831"
-		-- pants.PantsTemplate = "http://www.roblox.com/asset/?id=10045638"
-		-- head.HeadTemplate = "http://www.roblox.com/asset/?id=10045638"
-	end
-local Pad = game.Workspace.SmallHouse2.Kitchen_floor
-
-game.Workspace.SmallHouse1.Kitchen_floor.Touched:Connect(function(hit)
-	local Player = game.Players:GetPlayerFromCharacter(hit.Parent)
-	replaceClothes(Player)
-	if Player then
-		local CurrentlyTeleporting = Player.Character:FindFirstChild("CurrentlyTeleporting")
-		if not CurrentlyTeleporting then return end
-		
-		if not CurrentlyTeleporting.Value then
-			CurrentlyTeleporting.Value = true
-         print("teleporting.....")
-			Player.Character.HumanoidRootPart.CFrame = Pad.CFrame + Vector3.new(0,5,0)
-			wait(3)
-			CurrentlyTeleporting.Value = false
-		end
-	end
-end)
-
-quiz = require("Quiz")
-
-function dump(o)
-    if type(o) == 'table' then
-       local s = '{ '
-       for k,v in pairs(o) do
-          if type(k) ~= 'number' then k = '"'..k..'"' end
-          s = s .. '['..k..'] = ' .. dump(v) .. ','
-       end
-       return s .. '} '
+-- [[ Setup a quiz ]]
+function setupQuiz(quizName, quizLocation)
+    if (quizTable[quizName] ~= nil) then
+        error("A quiz with same name already exists")
     else
-       return tostring(o)
+        quizTable[quizName] = {}
+        quizTable[quizName]["location"] = quizLocation
+        quizTable[quizName]["questions"] = {}
+        quizTable[quizName]["questionCount"] = 0
+        quizState[quizName] = {}
+        users[quizName] = {}
+        users[quizName]["userlist"] = {}
+        users[quizName]["userCount"] = 0
+    end
+    return quizTable
+end
+
+function endQuiz(quizName)
+    quizTable[quizName]["location"] = nil
+    quizTable[quizName]["questions"] = nil
+    quizTable[quizName]["questionCount"] =nil
+    users[quizName] = nil
+    quizTable[quizName] = nil
+end
+
+-- [[ Add a question to the a quiz ]]
+function addQuestion(quizName, question)
+    if (quizTable[quizName] == nil) then
+        error("The quiz doesnt exist")
+    else
+        local questionCount = quizTable[quizName]["questionCount"]
+        quizTable[quizName]["questionCount"] = questionCount + 1
+        quizTable[quizName]["questions"][questionCount] = question
     end
 end
 
--- for _index, player in ipairs(Players:GetPlayers()) do
--- 	replaceClothes(player)
--- end
--- quiz = require("Quiz")
+-- [[ Create question ]]
+function createQuestion(questionStatement, option1, option2, option3, option4, correctOption)
+    local question = {}
+    question["questionStatement"] = questionStatement
+    question["option1"] = option1
+    question["option2"] = option2
+    question["option3"] = option3
+    question["option4"] = option4
+    question["correctOption"] = correctOption
+    return question
+end
 
--- function dump(o)
---     if type(o) == 'table' then
---        local s = '{ '
---        for k,v in pairs(o) do
---           if type(k) ~= 'number' then k = '"'..k..'"' end
---           s = s .. '['..k..'] = ' .. dump(v) .. ','
---        end
---        return s .. '} '
---     else
---        return tostring(o)
---     end
--- end
+-- [[ User cannot be added after the quiz starts]]
+function addUser(quizName, userId)
+    if(quizState[quizName]["isQuizStarted"] == true)
+    then
+        error("The quiz has already been started")
+    end
+    count = users[quizName]["userCount"]
+    users[quizName]["userlist"][userId] = {userId = userId, score = 0,rank = "-"}
+    users[quizName]["userCount"] = users[quizName]["userCount"]  + 1
+end
 
--- location = { }
--- location["x"] = 100
--- location["y"] = 100
+function removeUser(quizName, userId)
+    users[quizName]["userCount"] = users[quizName]["userCount"]  - 1
+    users[quizName]["userlist"][userId] = nil
+end
 
--- -- [ Quiz flow sample ]
--- -- [ Setup a new quiz, quiz name should be unique, location in above format ]
--- quizTable = quiz.setupQuiz("Sample", location)
+function getUserScore(quizName, userId)
+    return users[quizName]["userlist"][userId]["score"] 
+end
 
--- -- [ Create and add questions in the quiz ]
--- question = quiz.createQuestion(
---                 "How many edges do a triangle has?", 
---                     "One", 
---                     "Two", 
---                     "Three", 
---                     "Four", 
---                     "C")
+function setUserScore(quizName, userId, score)
+    users[quizName]["userlist"][userId]["score"] = score
+end
 
--- quiz.addQuestion("Sample", question)
+function addUserScore(quizName, userId, scoreToBeAdded)
+    users[quizName]["userlist"][userId]["score"] = users[quizName]["userlist"][userId]["score"] + scoreToBeAdded
+end
 
--- question = quiz.createQuestion(
---                 "How many letters are in the english alphabet?", 
---                     "25", 
---                     "26", 
---                     "21", 
---                     "20", 
---                     "B")
+function startQuiz(quizName)
+    quizState[quizName]["isQuizStarted"] = true
+    quizState[quizName]["currentQuestionIndex"] = 0
+    leaderBoard[quizName] = {}
+    local index = 0
+    for userId, user in pairs(users[quizName]["userlist"]) 
+    do
+        table.insert(leaderBoard[quizName],user)
+    end
+end
 
--- quiz.addQuestion("Sample", question)
+function getLeaderboard(quizName)
+    return leaderBoard[quizName]
+end
 
--- question = quiz.createQuestion(
---                 "What is 10 times 20?", 
---                     "200", 
---                     "2010", 
---                     "1020", 
---                     "1010", 
---                     "A")
+function refreshLeaderboard(quizName)
+    table.sort(leaderBoard[quizName], function (k1, k2) return k1.score > k2.score end )
+    local rank = 1
+    for userId, user in pairs(leaderBoard[quizName])
+    do 
+        user.rank = rank
+        rank = rank + 1
+    end
 
--- quiz.addQuestion("Sample", question)
+    return leaderBoard[quizName]
+end
 
--- -- [ Add users to a quiz who teleports to quiz]
--- quiz.addUser("Sample", "User 1")
--- quiz.addUser("Sample", "User 2")
--- quiz.addUser("Sample", "User 3")
--- quiz.addUser("Sample", "User 4")
+function getNextQuestion(quizName)
+    local currentQuestionIndex = quizState[quizName]["currentQuestionIndex"]
 
--- -- [ Remove users from quiz who leave ]
--- quiz.removeUser("Sample", "User 3")
+    if(currentQuestionIndex == quizTable[quizName]["questionCount"]) then
+        quizState[quizName]["isQuizEnded"] = true
+        return "The quiz is over"
+    end
+    local nextQuestion = quizTable[quizName]["questions"][currentQuestionIndex]
+    quizState[quizName]["currentQuestionIndex"] = quizState[quizName]["currentQuestionIndex"] + 1
+    return nextQuestion
+end
 
--- -- [ Start the quiz ]
--- quiz.startQuiz("Sample")
+function isAnswerCorrect(quizName, questionIndex, optionSelected)
+    local correctOption = quizTable[quizName]["questions"][questionIndex]["correctOption"]
+    if correctOption == optionSelected then return true end
+    return false
+end
 
--- -- [ Get leaderBoard ]
--- local leaderBoardObj = quiz.getLeaderboard("Sample")
--- -- print(dump(leaderBoard))
+return Quiz
 
--- -- [ Get next question ]
--- local nextQuestion = quiz.getNextQuestion("Sample")
--- print(nextQuestion.questionStatement)
--- print(nextQuestion.option1)
--- print(nextQuestion.option2)
--- print(nextQuestion.option3)
--- print(nextQuestion.option4)
-
--- -- [ Answer question ]
--- local questionIndex = quizState["Sample"]["currentQuestionIndex"] - 1
-
--- local user1answer = quiz.isAnswerCorrect("Sample", questionIndex, "B")
--- local user2answer = quiz.isAnswerCorrect("Sample", questionIndex, "C")
--- local user4answer = quiz.isAnswerCorrect("Sample", questionIndex, "D")
-
-
--- -- [Update score ]
--- if user1answer then quiz.addUserScore("Sample", "User 1", 5) end
--- if user2answer then quiz.addUserScore("Sample", "User 2", 5) end
--- if user4answer then quiz.addUserScore("Sample", "User 4", 5) end
-
-
--- leaderBoardObj = quiz.refreshLeaderboard("Sample")
--- print(dump(leaderBoardObj))
-
--- nextQuestion = quiz.getNextQuestion("Sample")
--- print(nextQuestion.questionStatement)
--- print(nextQuestion.option1)
--- print(nextQuestion.option2)
--- print(nextQuestion.option3)
--- print(nextQuestion.option4)
-
--- questionIndex = quizState["Sample"]["currentQuestionIndex"] - 1
-
--- user1answer = quiz.isAnswerCorrect("Sample", questionIndex, "B")
--- user2answer = quiz.isAnswerCorrect("Sample", questionIndex, "C")
--- user4answer = quiz.isAnswerCorrect("Sample", questionIndex, "D")
-
-
--- -- [Update score ]
--- if user1answer then quiz.addUserScore("Sample", "User 1", 5) end
--- if user2answer then quiz.addUserScore("Sample", "User 2", 5) end
--- if user4answer then quiz.addUserScore("Sample", "User 4", 5) end
-
--- leaderBoardObj = quiz.refreshLeaderboard("Sample")
--- print(dump(leaderBoardObj))
-
--- nextQuestion = quiz.getNextQuestion("Sample")
--- print(nextQuestion.questionStatement)
--- print(nextQuestion.option1)
--- print(nextQuestion.option2)
--- print(nextQuestion.option3)
--- print(nextQuestion.option4)
-
--- questionIndex = quizState["Sample"]["currentQuestionIndex"] - 1
-
--- user1answer = quiz.isAnswerCorrect("Sample", questionIndex, "B")
--- user2answer = quiz.isAnswerCorrect("Sample", questionIndex, "A")
--- user4answer = quiz.isAnswerCorrect("Sample", questionIndex, "D")
-
-
--- -- [Update score ]
--- if user1answer then quiz.addUserScore("Sample", "User 1", 5) end
--- if user2answer then quiz.addUserScore("Sample", "User 2", 5) end
--- if user4answer then quiz.addUserScore("Sample", "User 4", 5) end
-
--- leaderBoardObj = quiz.refreshLeaderboard("Sample")
--- print(dump(leaderBoardObj))
-
-
--- nextQuestion = quiz.getNextQuestion("Sample")
--- print(nextQuestion)
