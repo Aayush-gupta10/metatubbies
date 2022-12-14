@@ -1,63 +1,30 @@
+local QS1_Teleport_Destination_Pad = game.Workspace.QS1_Teleport_Destination
+
+game.Workspace.QS1_Teleport_Source.Touched:Connect(function(hit)
+	local Player = game.Players:GetPlayerFromCharacter(hit.Parent)
+
+	if Player then
+		local CurrentlyTeleporting = Player.Character:FindFirstChild("CurrentlyTeleporting")
+		if not CurrentlyTeleporting then return end
+		
+		if not CurrentlyTeleporting.Value then
+			CurrentlyTeleporting.Value = true
+         print("teleporting.....")
+			Player.Character.HumanoidRootPart.CFrame = QS1_Teleport_Destination_Pad.CFrame + Vector3.new(0,5,0)
+			wait(3)
+			CurrentlyTeleporting.Value = false
+		end
+	end
+end)
+
+
+
 local Quiz = {}
 
 quizTable = {}
 users = {}
 leaderBoard = {}
 quizState = {}
-
-
---Setup the quizes
-
-local nagarro_quiz = "Nagarro"
-local nagarro_quiz_location = {0,0}
-
-setupQuiz(nagarro_quiz,nagarro_quiz_location)
-
-local nq_question1 = "When was Nagarro found?"
-local nq_nq1_op1 = "1996"
-local nq_nq1_op2 = "1986"
-local nq_nq1_op3 = "1992"
-local nq_nq1_op4 = "2004"
-
-nq_q1 = createQuestion(nq_question1, nq_nq1_op1, nq_nq1_op2, nq_nq1_op3, nq_nq1_op4, "A")
-addQuestion(nagarro_quiz, nq_q1)
-
-local nq_question2 = "Where is Nagarro Headquarters located?"
-local nq_nq2_op1 = "Gurugram, India"
-local nq_nq2_op2 = "Frankfurt, Germany"
-local nq_nq2_op3 = "Munich, Germany"
-local nq_nq2_op4 = "Seattle, USA"
-
-nq_q2 = createQuestion(nq_question2, nq_nq2_op1, nq_nq2_op2, nq_nq2_op3, nq_nq2_op4, "C")
-addQuestion(nagarro_quiz, nq_q2)
-
-local nq_question3 = "In which stock exchange is Nagarro listed?"
-local nq_nq3_op1 = "National Stock Exchange, India"
-local nq_nq3_op2 = "Bombay Stock Exchange, India"
-local nq_nq3_op3 = "Frankfurt Stock Exchange, Germany"
-local nq_nq3_op4 = "All of the above"
-
-nq_q3 = createQuestion(nq_question3, nq_nq3_op1, nq_nq3_op2, nq_nq3_op3, nq_nq3_op4, "C")
-addQuestion(nagarro_quiz, nq_q3)
-
-local nq_question4 = "Who is the CEO of Nagarro?"
-local nq_nq4_op1 = "Manas Fuloria"
-local nq_nq4_op2 = "Manas Human"
-local nq_nq4_op3 = "Manas Chopra"
-local nq_nq4_op4 = "Manas Gupta"
-
-nq_q4 = createQuestion(nq_question4, nq_nq4_op1, nq_nq4_op2, nq_nq4_op3, nq_nq4_op4, "B")
-addQuestion(nagarro_quiz, nq_q4)
-
-local nq_question5 = "How many employees does Nagarro has globally (Approx.)?"
-local nq_nq5_op1 = "1000"
-local nq_nq5_op2 = "4000"
-local nq_nq5_op3 = "8000"
-local nq_nq5_op4 = "17000"
-
-nq_q1 = createQuestion(nq_question5, nq_nq5_op1, nq_nq5_op2, nq_nq5_op3, nq_nq5_op4, "D")
-addQuestion(nagarro_quiz, nq_q5)
-
 
 -- [[ Setup a quiz ]]
 function setupQuiz(quizName, quizLocation)
@@ -180,5 +147,76 @@ function isAnswerCorrect(quizName, questionIndex, optionSelected)
     return false
 end
 
-return Quiz
 
+--Setup the quizes
+
+local nagarro_quiz = "Nagarro"
+local nagarro_quiz_location = {0,0}
+
+setupQuiz(nagarro_quiz,nagarro_quiz_location)
+
+local nq_question1 = "When was Nagarro found?"
+local nq_nq1_op1 = "1996"
+local nq_nq1_op2 = "1986"
+local nq_nq1_op3 = "1992"
+local nq_nq1_op4 = "2004"
+
+nq_q1 = createQuestion(nq_question1, nq_nq1_op1, nq_nq1_op2, nq_nq1_op3, nq_nq1_op4, "A")
+addQuestion(nagarro_quiz, nq_q1)
+
+local nq_question2 = "Where is Nagarro Headquarters located?"
+local nq_nq2_op1 = "Gurugram, India"
+local nq_nq2_op2 = "Frankfurt, Germany"
+local nq_nq2_op3 = "Munich, Germany"
+local nq_nq2_op4 = "Seattle, USA"
+
+nq_q2 = createQuestion(nq_question2, nq_nq2_op1, nq_nq2_op2, nq_nq2_op3, nq_nq2_op4, "C")
+addQuestion(nagarro_quiz, nq_q2)
+
+local nq_question3 = "In which stock exchange is Nagarro listed?"
+local nq_nq3_op1 = "National Stock Exchange, India"
+local nq_nq3_op2 = "Bombay Stock Exchange, India"
+local nq_nq3_op3 = "Frankfurt Stock Exchange, Germany"
+local nq_nq3_op4 = "All of the above"
+
+nq_q3 = createQuestion(nq_question3, nq_nq3_op1, nq_nq3_op2, nq_nq3_op3, nq_nq3_op4, "C")
+addQuestion(nagarro_quiz, nq_q3)
+
+local nq_question4 = "Who is the CEO of Nagarro?"
+local nq_nq4_op1 = "Manas Fuloria"
+local nq_nq4_op2 = "Manas Human"
+local nq_nq4_op3 = "Manas Chopra"
+local nq_nq4_op4 = "Manas Gupta"
+
+nq_q4 = createQuestion(nq_question4, nq_nq4_op1, nq_nq4_op2, nq_nq4_op3, nq_nq4_op4, "B")
+addQuestion(nagarro_quiz, nq_q4)
+
+local nq_question5 = "How many employees does Nagarro has globally (Approx.)?"
+local nq_nq5_op1 = "1000"
+local nq_nq5_op2 = "4000"
+local nq_nq5_op3 = "8000"
+local nq_nq5_op4 = "17000"
+
+nq_q5 = createQuestion(nq_question5, nq_nq5_op1, nq_nq5_op2, nq_nq5_op3, nq_nq5_op4, "D")
+addQuestion(nagarro_quiz, nq_q5)
+
+isQuiz1Started = false
+
+game.Workspace.QS1_Teleport_Destination.Touched:Connect(function(hit)
+
+	if isQuiz1Started == false
+		then
+			game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Quiz is about to get started!"
+			-- local time = 60
+			-- while wait(1) do
+			-- if time == 0 then
+			-- gui.TextLabel.Text = "Times up!"
+			-- break
+			-- else
+			-- gui.TextLabel.Text = tostring(time) --sets onscreen gui timer
+			-- time = time - 1
+			-- end
+			-- end
+			isQuiz1Started = true
+	end
+end)
