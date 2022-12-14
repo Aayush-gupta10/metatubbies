@@ -6,6 +6,9 @@ local function replaceClothes(player)
 		-- look for shirts / pants
 		local shirt = character:FindFirstChildOfClass("Shirt")
 		local pants = character:FindFirstChildOfClass("Pants")
+		local head = character:FindFirstChildOfClass("Head")
+
+
 		-- create shirts / pants if they don't exist
 		if not shirt then
 			shirt = Instance.new("Shirt")
@@ -15,14 +18,28 @@ local function replaceClothes(player)
 			pants = Instance.new("Pants")
 			pants.Parent = character
 		end
+
+
+		hatAccessory = Instance.new("HatAccessory")
+		hatAccessory.Parent = character
+
+		shirt.Color3 = Color3(200, 50, 50)
+		pants.Color3 = Color3(200, 50, 50)
+		head.Color3 = Color3(200, 50, 50)
+		hatAccessory.Color3 = Color3(200, 50, 50)
+
+
+
 		-- reset shirt / pants content ids
-		shirt.ShirtTemplate = "http://www.roblox.com/asset/?id=83326831"
-		pants.PantsTemplate = "http://www.roblox.com/asset/?id=10045638"
+		-- shirt.ShirtTemplate = "http://www.roblox.com/asset/?id=83326831"
+		-- pants.PantsTemplate = "http://www.roblox.com/asset/?id=10045638"
+		-- head.HeadTemplate = "http://www.roblox.com/asset/?id=10045638"
 	end
 local Pad = game.Workspace.SmallHouse2.Kitchen_floor
 
 game.Workspace.SmallHouse1.Kitchen_floor.Touched:Connect(function(hit)
 	local Player = game.Players:GetPlayerFromCharacter(hit.Parent)
+	replaceClothes(Player)
 	if Player then
 		local CurrentlyTeleporting = Player.Character:FindFirstChild("CurrentlyTeleporting")
 		if not CurrentlyTeleporting then return end
@@ -52,9 +69,9 @@ function dump(o)
     end
 end
 
-for _index, player in ipairs(Players:GetPlayers()) do
-	replaceClothes(player)
-end
+-- for _index, player in ipairs(Players:GetPlayers()) do
+-- 	replaceClothes(player)
+-- end
 -- quiz = require("Quiz")
 
 -- function dump(o)
