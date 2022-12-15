@@ -17,6 +17,7 @@ game.Workspace.Portal.QS1_Teleport_Source.Touched:Connect(function(hit)
 	end
 end)
 
+
 function dump(o)
     if type(o) == 'table' then
        local s = '{ '
