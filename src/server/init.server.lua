@@ -154,7 +154,7 @@ function getNextQuestion(quizName)
 
     if(currentQuestionIndex == quizTable[quizName]["questionCount"]) then
         quizState[quizName]["isQuizEnded"] = true
-        return "The quiz is over"
+        return nil
     end
     local nextQuestion = quizTable[quizName]["questions"][currentQuestionIndex]
     quizState[quizName]["currentQuestionIndex"] = quizState[quizName]["currentQuestionIndex"] + 1
@@ -236,26 +236,57 @@ function startTimer(timerPeriod, timerEnd, timerPeriodCallback, timerEndCallback
 
         if currentTime > startTime + timerPeriod then
             do 
-
+                wait(timerPeriod)
                 timerPeriodCallback()
                 startTime = startTime + timerPeriod
-                wait(timerPeriod)
             end
         end
     end
 end
 
-quiz1Time = 5
+quiz1Time = 20
+answerTime = 10
+currentQuestion = {}
 function timerPeriodCallbackQuiz1()
     quiz1Time = quiz1Time - 1
     game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Quiz is about to get started in "..quiz1Time.." seconds"
 end
 
 function startQuizCallbackQuiz1()
-    print("quiz callback started")
     startQuiz(nagarro_quiz)
-    question = getNextQuestion(nagarro_quiz)
-    game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Question : "..question["questionStatement"]
+    currentQuestion = getNextQuestion(nagarro_quiz)
+    game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Question : "..currentQuestion["questionStatement"].."\n Time left : "..answerTime
+    game.Workspace.QS1_Option1.SurfaceGui.TextLabel.Text = currentQuestion["option1"]
+    game.Workspace.QS1_Option2.SurfaceGui.TextLabel.Text = currentQuestion["option2"]
+    game.Workspace.QS1_Option3.SurfaceGui.TextLabel.Text = currentQuestion["option3"]
+    game.Workspace.QS1_Option4.SurfaceGui.TextLabel.Text = currentQuestion["option4"]
+    startTimer(1, answerTime, timerPeriodCallbackQuestion, answerQuestionCallback)
+end
+
+function timerPeriodCallbackQuestion() 
+    answerTime = answerTime - 1
+    game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Question : "..currentQuestion["questionStatement"].."\n Time left : "..answerTime
+end
+
+function answerQuestionCallback() 
+    currentQuestion = getNextQuestion(nagarro_quiz)
+    if currentQuestion ~= nil then 
+        do
+            game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Question : "..currentQuestion["questionStatement"].."\n Time left : "..answerTime
+            game.Workspace.QS1_Option1.SurfaceGui.TextLabel.Text = currentQuestion["option1"]
+            game.Workspace.QS1_Option2.SurfaceGui.TextLabel.Text = currentQuestion["option2"]
+            game.Workspace.QS1_Option3.SurfaceGui.TextLabel.Text = currentQuestion["option3"]
+            game.Workspace.QS1_Option4.SurfaceGui.TextLabel.Text = currentQuestion["option4"]
+            answerTime = 10
+            startTimer(1, answerTime, timerPeriodCallbackQuestion, answerQuestionCallback)
+        end
+    else
+        do
+            isQuiz1Started = false
+            game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Quiz has ended! Go to portal to start again!"
+        return
+        end
+    end
 end
 
 game.Workspace.QS1_Teleport_Destination.Touched:Connect(function(hit)
