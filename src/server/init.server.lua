@@ -383,7 +383,14 @@ function answerQuestionCallback()
         do
             isQuiz1Started = false
             quiz1Time = 20
-            game.Workspace.DispFrame.DisplayFrame.SurfaceGui.TextLabel.Text = "Quiz has ended! Go to portal to start again!"
+            local leaderBoard = getLeaderboard(nagarro_quiz)
+            local winner = {}
+            for userId, user in pairs(leaderBoard)
+            do 
+                winner = userId
+                break
+            end
+            game.Workspace.DispFrame.DisplayFrame.SurfaceGui.TextLabel.Text = "Quiz has ended! Go to portal to start again!".."\n\n The winner is "..winner
         return
         end
     end
