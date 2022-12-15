@@ -9,9 +9,9 @@ game.Workspace.Portal.QS1_Teleport_Source.Touched:Connect(function(hit)
 		
 		if not CurrentlyTeleporting.Value then
 			CurrentlyTeleporting.Value = true
-         print("teleporting.....")
+            print("teleporting.....")
 			Player.Character.HumanoidRootPart.CFrame = QS1_Teleport_Destination_Pad.CFrame + Vector3.new(0,5,0)
-			wait(3)
+            wait(3)
 			CurrentlyTeleporting.Value = false
 		end
 	end
@@ -102,11 +102,11 @@ function removeUser(quizName, userId)
 end
 
 function isUserAdded(quizName, userId)
-    if users[quizName]["userlist"][userId] == nil then
-        do return false
+    if users[quizName]["userlist"][userId] ~= nil then
+        do return true
         end
     end
-    return true
+    return false
 end
 
 
@@ -249,41 +249,140 @@ answerTime = 10
 currentQuestion = {}
 function timerPeriodCallbackQuiz1()
     quiz1Time = quiz1Time - 1
-    game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Quiz is about to get started in "..quiz1Time.." seconds"
+    game.Workspace.DispFrame.DisplayFrame.SurfaceGui.TextLabel.Text = "Quiz is about to get started in "..quiz1Time.." seconds"
 end
 
 function startQuizCallbackQuiz1()
     startQuiz(nagarro_quiz)
     currentQuestion = getNextQuestion(nagarro_quiz)
-    game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Question : "..currentQuestion["questionStatement"].."\n\n Time left : "..answerTime.."\n\n Stand on correct answer tile!"
-    game.Workspace.QS1_Option1.SurfaceGui.TextLabel.Text = currentQuestion["option1"]
-    game.Workspace.QS1_Option2.SurfaceGui.TextLabel.Text = currentQuestion["option2"]
-    game.Workspace.QS1_Option3.SurfaceGui.TextLabel.Text = currentQuestion["option3"]
-    game.Workspace.QS1_Option4.SurfaceGui.TextLabel.Text = currentQuestion["option4"]
+    game.Workspace.DispFrame.DisplayFrame.SurfaceGui.TextLabel.Text = "Question : "..currentQuestion["questionStatement"].."\n\n Time left : "..answerTime.."\n\n Stand on correct answer tile!"
+    game.Workspace.QS1_Option1.Button.Button_move.SurfaceGui.TextLabel.Text = currentQuestion["option1"]
+    game.Workspace.QS1_Option2.Button.Button_move.SurfaceGui.TextLabel.Text = currentQuestion["option2"]
+    game.Workspace.QS1_Option3.Button.Button_move.SurfaceGui.TextLabel.Text = currentQuestion["option3"]
+    game.Workspace.QS1_Option4.Button.Button_move.SurfaceGui.TextLabel.Text = currentQuestion["option4"]
     startTimer(1, answerTime, timerPeriodCallbackQuestion, answerQuestionCallback)
 end
 
 function timerPeriodCallbackQuestion() 
     answerTime = answerTime - 1
-    game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Question : "..currentQuestion["questionStatement"].."\n Time left : "..answerTime.."\n\n Stand on correct answer tile!"
+    game.Workspace.DispFrame.DisplayFrame.SurfaceGui.TextLabel.Text = "Question : "..currentQuestion["questionStatement"].."\n Time left : "..answerTime.."\n\n Stand on correct answer tile!"
+end
+
+option1SelectedByPlayers = {}
+option2SelectedByPlayers = {}
+option3SelectedByPlayers = {}
+option4SelectedByPlayers = {}
+
+game.Workspace.QS1_Option1.Button.Button_move.Touched:Connect(function(hit)
+        local Player = game.Players:GetPlayerFromCharacter(hit.Parent)
+
+        if Player then
+            option1SelectedByPlayers[Player.name] = true
+            option2SelectedByPlayers[Player.name] = false
+            option3SelectedByPlayers[Player.name] = false
+            option4SelectedByPlayers[Player.name] = false
+        end
+    end
+)
+
+game.Workspace.QS1_Option2.Button.Button_move.Touched:Connect(function(hit)
+    local Player = game.Players:GetPlayerFromCharacter(hit.Parent)
+
+    if Player then
+        option1SelectedByPlayers[Player.name] = false
+        option2SelectedByPlayers[Player.name] = true
+        option3SelectedByPlayers[Player.name] = false
+        option4SelectedByPlayers[Player.name] = false
+    end
+end
+)
+
+
+game.Workspace.QS1_Option3.Button.Button_move.Touched:Connect(function(hit)
+    local Player = game.Players:GetPlayerFromCharacter(hit.Parent)
+
+    if Player then
+        option1SelectedByPlayers[Player.name] = false
+        option2SelectedByPlayers[Player.name] = false
+        option3SelectedByPlayers[Player.name] = true
+        option4SelectedByPlayers[Player.name] = false
+    end
+end
+)
+
+game.Workspace.QS1_Option4.Button.Button_move.Touched:Connect(function(hit)
+    local Player = game.Players:GetPlayerFromCharacter(hit.Parent)
+
+    if Player then
+        option1SelectedByPlayers[Player.name] = false
+        option2SelectedByPlayers[Player.name] = false
+        option3SelectedByPlayers[Player.name] = false
+        option4SelectedByPlayers[Player.name] = true
+    end
+end
+)
+
+function getOptionSelected(username)
+    if option1SelectedByPlayers[username] == true then
+        return "A"
+    end
+    if option2SelectedByPlayers[username] == true then
+        return "B"
+    end
+    if option3SelectedByPlayers[username] == true then
+        return "C"
+    end
+    if option4SelectedByPlayers[username] == true then
+        return "D"
+    end
+    return nil
+end
+
+players = {}
+game.Players.PlayerAdded:Connect(function(thisPlayer)
+    local playerName = thisPlayer.Name
+    players[playerName] = thisPlayer
+end)
+
+function collectAnswer()
+    
+    for username,v in pairs(users[nagarro_quiz]["userlist"]) do
+        local optionsSelected = getOptionSelected(username)
+        local isAnswerCorrectObj = isAnswerCorrect(nagarro_quiz, quizState[nagarro_quiz]["currentQuestionIndex"]-1, optionsSelected)
+
+        if isAnswerCorrectObj then 
+            addUserScore(nagarro_quiz, username, 10) 
+        end
+
+        local scoreValue = getUserScore(nagarro_quiz, username)
+        local score = Instance.new("IntValue")
+        score.Name = "Score"
+        score.Value = scoreValue
+        score.Parent = players[username].leaderstats
+        refreshLeaderboard(nagarro_quiz)
+        local leaderBoard = getLeaderboard(nagarro_quiz)
+
+    end
 end
 
 function answerQuestionCallback() 
+    collectAnswer()
     currentQuestion = getNextQuestion(nagarro_quiz)
     if currentQuestion ~= nil then 
         do
-            game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Question : "..currentQuestion["questionStatement"].."\n Time left : "..answerTime.."\n\n Stand on correct answer tile!"
-            game.Workspace.QS1_Option1.SurfaceGui.TextLabel.Text = currentQuestion["option1"]
-            game.Workspace.QS1_Option2.SurfaceGui.TextLabel.Text = currentQuestion["option2"]
-            game.Workspace.QS1_Option3.SurfaceGui.TextLabel.Text = currentQuestion["option3"]
-            game.Workspace.QS1_Option4.SurfaceGui.TextLabel.Text = currentQuestion["option4"]
+            game.Workspace.DispFrame.DisplayFrame.SurfaceGui.TextLabel.Text = "Question : "..currentQuestion["questionStatement"].."\n Time left : "..answerTime.."\n\n Stand on correct answer tile!"
+            game.Workspace.QS1_Option1.Button.Button_move.SurfaceGui.TextLabel.Text = currentQuestion["option1"]
+            game.Workspace.QS1_Option2.Button.Button_move.SurfaceGui.TextLabel.Text = currentQuestion["option2"]
+            game.Workspace.QS1_Option3.Button.Button_move.SurfaceGui.TextLabel.Text = currentQuestion["option3"]
+            game.Workspace.QS1_Option4.Button.Button_move.SurfaceGui.TextLabel.Text = currentQuestion["option4"]
             answerTime = 10
             startTimer(1, answerTime, timerPeriodCallbackQuestion, answerQuestionCallback)
         end
     else
         do
             isQuiz1Started = false
-            game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Quiz has ended! Go to portal to start again!"
+            quiz1Time = 20
+            game.Workspace.DispFrame.DisplayFrame.SurfaceGui.TextLabel.Text = "Quiz has ended! Go to portal to start again!"
         return
         end
     end
@@ -293,18 +392,16 @@ game.Workspace.QS1_Teleport_Destination.Touched:Connect(function(hit)
     local Player = game.Players:GetPlayerFromCharacter(hit.Parent)
 
 	if Player then
+        local isUserAddedObj = isUserAdded(nagarro_quiz, Player.name)
+
+        if (isUserAddedObj == false) then 
+            addUser(nagarro_quiz, Player.Name)
+        end
+
         if isQuiz1Started == false
             then
                 isQuiz1Started = true
                 startTimer(1, quiz1Time, timerPeriodCallbackQuiz1, startQuizCallbackQuiz1)
         end
-
-        local isUserAdded = isUserAdded(nagarro_quiz, Player.name)
-        if userAdded == false then 
-            do
-                addUser(nagarro_quiz, Player.Name)
-            end
-        end
-
     end
 end)
