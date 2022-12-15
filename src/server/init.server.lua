@@ -255,7 +255,7 @@ end
 function startQuizCallbackQuiz1()
     startQuiz(nagarro_quiz)
     currentQuestion = getNextQuestion(nagarro_quiz)
-    game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Question : "..currentQuestion["questionStatement"].."\n Time left : "..answerTime
+    game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Question : "..currentQuestion["questionStatement"].."\n\n Time left : "..answerTime.."\n\n Stand on correct answer tile!"
     game.Workspace.QS1_Option1.SurfaceGui.TextLabel.Text = currentQuestion["option1"]
     game.Workspace.QS1_Option2.SurfaceGui.TextLabel.Text = currentQuestion["option2"]
     game.Workspace.QS1_Option3.SurfaceGui.TextLabel.Text = currentQuestion["option3"]
@@ -265,14 +265,14 @@ end
 
 function timerPeriodCallbackQuestion() 
     answerTime = answerTime - 1
-    game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Question : "..currentQuestion["questionStatement"].."\n Time left : "..answerTime
+    game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Question : "..currentQuestion["questionStatement"].."\n Time left : "..answerTime.."\n\n Stand on correct answer tile!"
 end
 
 function answerQuestionCallback() 
     currentQuestion = getNextQuestion(nagarro_quiz)
     if currentQuestion ~= nil then 
         do
-            game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Question : "..currentQuestion["questionStatement"].."\n Time left : "..answerTime
+            game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Question : "..currentQuestion["questionStatement"].."\n Time left : "..answerTime.."\n\n Stand on correct answer tile!"
             game.Workspace.QS1_Option1.SurfaceGui.TextLabel.Text = currentQuestion["option1"]
             game.Workspace.QS1_Option2.SurfaceGui.TextLabel.Text = currentQuestion["option2"]
             game.Workspace.QS1_Option3.SurfaceGui.TextLabel.Text = currentQuestion["option3"]
