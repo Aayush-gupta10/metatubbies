@@ -1,6 +1,6 @@
 local QS1_Teleport_Destination_Pad = game.Workspace.QS1_Teleport_Destination
 
-game.Workspace.QS1_Teleport_Source.Touched:Connect(function(hit)
+game.Workspace.Portal.QS1_Teleport_Source.Touched:Connect(function(hit)
 	local Player = game.Players:GetPlayerFromCharacter(hit.Parent)
 
 	if Player then
