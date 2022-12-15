@@ -17,7 +17,18 @@ game.Workspace.QS1_Teleport_Source.Touched:Connect(function(hit)
 	end
 end)
 
-
+function dump(o)
+    if type(o) == 'table' then
+       local s = '{ '
+       for k,v in pairs(o) do
+          if type(k) ~= 'number' then k = '"'..k..'"' end
+          s = s .. '['..k..'] = ' .. dump(v) .. ','
+       end
+       return s .. '} '
+    else
+       return tostring(o)
+    end
+end
 
 local Quiz = {}
 
@@ -89,6 +100,15 @@ function removeUser(quizName, userId)
     users[quizName]["userCount"] = users[quizName]["userCount"]  - 1
     users[quizName]["userlist"][userId] = nil
 end
+
+function isUserAdded(quizName, userId)
+    if users[quizName]["userlist"][userId] == nil then
+        do return false
+        end
+    end
+    return true
+end
+
 
 function getUserScore(quizName, userId)
     return users[quizName]["userlist"][userId]["score"] 
@@ -202,21 +222,58 @@ addQuestion(nagarro_quiz, nq_q5)
 
 isQuiz1Started = false
 
-game.Workspace.QS1_Teleport_Destination.Touched:Connect(function(hit)
+function startTimer(timerPeriod, timerEnd, timerPeriodCallback, timerEndCallback)
+    local startTime = os.time()
+    local stopTime = startTime + timerEnd
+    while true do
+        local currentTime = os.time()
+        if currentTime > stopTime then
+            do 
+                timerEndCallback()
+                break
+            end
+        end
 
-	if isQuiz1Started == false
-		then
-			game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Quiz is about to get started!"
-			-- local time = 60
-			-- while wait(1) do
-			-- if time == 0 then
-			-- gui.TextLabel.Text = "Times up!"
-			-- break
-			-- else
-			-- gui.TextLabel.Text = tostring(time) --sets onscreen gui timer
-			-- time = time - 1
-			-- end
-			-- end
-			isQuiz1Started = true
-	end
+        if currentTime > startTime + timerPeriod then
+            do 
+
+                timerPeriodCallback()
+                startTime = startTime + timerPeriod
+                wait(timerPeriod)
+            end
+        end
+    end
+end
+
+quiz1Time = 5
+function timerPeriodCallbackQuiz1()
+    quiz1Time = quiz1Time - 1
+    game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Quiz is about to get started in "..quiz1Time.." seconds"
+end
+
+function startQuizCallbackQuiz1()
+    print("quiz callback started")
+    startQuiz(nagarro_quiz)
+    question = getNextQuestion(nagarro_quiz)
+    game.Workspace.QuestionScreen1.SurfaceGui.TextLabel.Text = "Question : "..question["questionStatement"]
+end
+
+game.Workspace.QS1_Teleport_Destination.Touched:Connect(function(hit)
+    local Player = game.Players:GetPlayerFromCharacter(hit.Parent)
+
+	if Player then
+        if isQuiz1Started == false
+            then
+                isQuiz1Started = true
+                startTimer(1, quiz1Time, timerPeriodCallbackQuiz1, startQuizCallbackQuiz1)
+        end
+
+        local isUserAdded = isUserAdded(nagarro_quiz, Player.name)
+        if userAdded == false then 
+            do
+                addUser(nagarro_quiz, Player.Name)
+            end
+        end
+
+    end
 end)
