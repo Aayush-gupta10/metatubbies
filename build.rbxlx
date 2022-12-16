@@ -471,27 +471,27 @@
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<CoordinateFrame name="CFrame">
-					<X>-57.2125015</X>
-					<Y>30.2871799</Y>
-					<Z>-119.476578</Z>
-					<R00>1</R00>
-					<R01>0</R01>
-					<R02>-0</R02>
+					<X>-47.1878357</X>
+					<Y>25.5563602</Y>
+					<Z>-88.7967682</Z>
+					<R00>0.475623906</R00>
+					<R01>0.123941496</R01>
+					<R02>0.870873451</R02>
 					<R10>-0</R10>
-					<R11>1</R11>
-					<R12>-0</R12>
-					<R20>-0</R20>
-					<R21>0</R21>
-					<R22>1</R22>
+					<R11>0.99002409</R11>
+					<R12>-0.140898854</R12>
+					<R20>-0.879648745</R20>
+					<R21>0.0670148656</R21>
+					<R22>0.470879108</R22>
 				</CoordinateFrame>
 				<Ref name="CameraSubject">null</Ref>
 				<token name="CameraType">0</token>
 				<float name="FieldOfView">70</float>
 				<token name="FieldOfViewMode">0</token>
 				<CoordinateFrame name="Focus">
-					<X>-57.2125015</X>
-					<Y>30.2871799</Y>
-					<Z>-121.476578</Z>
+					<X>-48.9295807</X>
+					<Y>25.8381577</Y>
+					<Z>-89.7385254</Z>
 					<R00>1</R00>
 					<R01>0</R01>
 					<R02>0</R02>
@@ -753,18 +753,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 				<UniqueId name="UniqueId">54662761a03ee7e303ab58e000002c67</UniqueId>
 				<OptionalCoordinateFrame name="WorldPivotData">
 					<CFrame>
-						<X>-229.206131</X>
-						<Y>-3.78940153</Y>
-						<Z>-35.4183655</Z>
-						<R00>1</R00>
+						<X>-91.6705933</X>
+						<Y>14.2229719</Y>
+						<Z>-59.8828278</Z>
+						<R00>0.707106411</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>0.707106411</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>-0.707106411</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106411</R22>
 					</CFrame>
 				</OptionalCoordinateFrame>
 			</Properties>
@@ -781,18 +781,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">4</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-229.206131</X>
-						<Y>-3.78940153</Y>
-						<Z>-35.4183655</Z>
-						<R00>1</R00>
+						<X>-91.6705933</X>
+						<Y>14.2229719</Y>
+						<Z>-59.8828278</Z>
+						<R00>0.70710665</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>0.70710665</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>-0.70710665</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.70710665</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -859,18 +859,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="formFactorRaw">1</token>
 					<token name="shape">1</token>
 					<Vector3 name="size">
-						<X>2</X>
-						<Y>2</Y>
-						<Z>1</Z>
+						<X>5.84220552</X>
+						<Y>5.84220552</Y>
+						<Z>2.92110276</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX984B64F6C3984144ADE8139BAD5FA425">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-6.18667637e-17</X>
-							<Y>-0.904448748</Y>
-							<Z>-8.23043393e-08</Z>
+							<X>-1.80719178e-16</X>
+							<Y>-2.64198804</Y>
+							<Z>-2.40419439e-07</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -2527,18 +2527,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-229.794586</X>
-						<Y>-5.58784008</Y>
-						<Z>-35.3973045</Z>
-						<R00>1</R00>
+						<X>-92.8425674</X>
+						<Y>8.96954918</Y>
+						<Z>-58.6238441</Z>
+						<R00>0.70710665</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>0.70710665</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>-0.70710665</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.70710665</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -2623,18 +2623,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">386</int>
 					<Vector3 name="size">
-						<X>0.70000267</X>
-						<Y>0.941606402</Y>
-						<Z>0.772946239</Z>
+						<X>2.04478002</X>
+						<Y>2.75052953</Y>
+						<Z>2.25785565</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX184EF57B77AE4222B10D80B7ED8619FB">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.132965028</X>
-							<Y>0.316551208</Y>
-							<Z>-0.104396112</Z>
+							<X>0.388404548</X>
+							<Y>0.924678802</Y>
+							<Z>-0.304951817</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -2672,9 +2672,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.113357335</X>
-							<Y>-0.470544696</Y>
-							<Z>-0.01973336</Z>
+							<X>0.331128448</X>
+							<Y>-1.37450957</Y>
+							<Z>-0.0576431789</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -2712,9 +2712,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.021679312</X>
-							<Y>-0.334428489</Y>
-							<Z>-0.0254345909</Z>
+							<X>0.0633274987</X>
+							<Y>-0.976899862</Y>
+							<Z>-0.0742970556</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -2726,9 +2726,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.132965028</X>
-							<Y>0.316551208</Y>
-							<Z>-0.104396112</Z>
+							<X>0.388404489</X>
+							<Y>0.924678683</Y>
+							<Z>-0.304951757</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -2791,18 +2791,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-229.206131</X>
-						<Y>-4.31527948</Y>
-						<Z>-35.5554008</Z>
-						<R00>1</R00>
+						<X>-91.9536438</X>
+						<Y>12.6868296</Y>
+						<Z>-60.1658783</Z>
+						<R00>0.70710665</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>0.70710665</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>-0.70710665</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.70710665</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -2887,18 +2887,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">878</int>
 					<Vector3 name="size">
-						<X>1.70292234</X>
-						<Y>1.57309198</Y>
-						<Z>1.68456626</Z>
+						<X>4.97441149</X>
+						<Y>4.59516382</Y>
+						<Z>4.9207921</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX00FFF006BD9247CBAF8303741DCBBF93">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-6.18667637e-17</X>
-							<Y>-0.378570914</Y>
-							<Z>0.137034923</Z>
+							<X>-1.80719178e-16</X>
+							<Y>-1.10584474</Y>
+							<Z>0.400293142</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -2936,9 +2936,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-2.21541286e-05</X>
-							<Y>-0.294755816</Y>
-							<Z>0.824706972</Z>
+							<X>-6.47144916e-05</X>
+							<Y>-0.861012161</Y>
+							<Z>2.40905404</Z>
 							<R00>1</R00>
 							<R01>-0.000288655283</R01>
 							<R02>4.0045401e-05</R02>
@@ -2976,9 +2976,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-3.55678094e-05</X>
-							<Y>-0.256172031</Y>
-							<Z>0.151228324</Z>
+							<X>-0.00010389724</X>
+							<Y>-0.748304963</Y>
+							<Z>0.441753536</Z>
 							<R00>1</R00>
 							<R01>-0.000288655283</R01>
 							<R02>4.0045401e-05</R02>
@@ -3016,9 +3016,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-5.79314001e-05</X>
-							<Y>-0.191844344</Y>
-							<Z>-0.814880908</Z>
+							<X>-0.000169223596</X>
+							<Y>-0.560397089</Y>
+							<Z>-2.38035107</Z>
 							<R00>1</R00>
 							<R01>-0.000288655283</R01>
 							<R02>4.0045401e-05</R02>
@@ -3056,9 +3056,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-6.10097306e-09</X>
-							<Y>0.724582136</Y>
-							<Z>0.220721364</Z>
+							<X>-1.782157e-08</X>
+							<Y>2.11657929</Y>
+							<Z>0.64474988</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -3096,9 +3096,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.464663923</X>
-							<Y>-0.473988354</Y>
-							<Z>0.102762744</Z>
+							<X>-1.35733116</X>
+							<Y>-1.38456869</Y>
+							<Z>0.300180554</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -3136,9 +3136,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.465027601</X>
-							<Y>-0.474122167</Y>
-							<Z>0.102738656</Z>
+							<X>1.35839343</X>
+							<Y>-1.3849597</Y>
+							<Z>0.300110191</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -3176,9 +3176,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-6.18667637e-17</X>
-							<Y>-0.904448748</Y>
-							<Z>-8.23043393e-08</Z>
+							<X>-1.80719178e-16</X>
+							<Y>-2.64198732</Y>
+							<Z>-2.40419411e-07</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -3190,9 +3190,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-6.18667637e-17</X>
-							<Y>-0.378570914</Y>
-							<Z>0.137034923</Z>
+							<X>-1.80719178e-16</X>
+							<Y>-1.10584462</Y>
+							<Z>0.400293052</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -3255,18 +3255,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-229.683304</X>
-						<Y>-4.93686056</Y>
-						<Z>-35.476265</Z>
-						<R00>1</R00>
+						<X>-92.7758026</X>
+						<Y>10.8711281</Y>
+						<Z>-59.0168076</Z>
+						<R00>0.70710665</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>0.70710665</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>-0.70710665</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.70710665</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -3351,18 +3351,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">423</int>
 					<Vector3 name="size">
-						<X>0.616656601</X>
-						<Y>0.870269179</Y>
-						<Z>0.574387431</Z>
+						<X>1.80131757</X>
+						<Y>2.54214644</Y>
+						<Z>1.67784476</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXEAB5CFF60B324CF6A814CAD3799C2108">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0125075877</X>
-							<Y>0.147592545</Y>
-							<Z>0.0236270577</Z>
+							<X>0.0365359522</X>
+							<Y>0.431133032</Y>
+							<Z>0.0690170601</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -3400,9 +3400,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.021679312</X>
-							<Y>-0.334428489</Y>
-							<Z>-0.0254345909</Z>
+							<X>0.0633274987</X>
+							<Y>-0.976900101</Y>
+							<Z>-0.0742970631</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -3440,9 +3440,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.464663923</X>
-							<Y>-0.473988354</Y>
-							<Z>0.102762744</Z>
+							<X>-1.35733128</X>
+							<Y>-1.38456845</Y>
+							<Z>0.300180525</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -3454,9 +3454,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.0125075877</X>
-							<Y>0.147592545</Y>
-							<Z>0.0236270577</Z>
+							<X>0.0365359522</X>
+							<Y>0.431132972</Y>
+							<Z>0.0690170676</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -3519,18 +3519,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-230.3311</X>
-						<Y>-4.67618179</Y>
-						<Z>-35.4161758</Z>
-						<R00>1</R00>
+						<X>-93.9897308</X>
+						<Y>11.632596</Y>
+						<Z>-57.5546417</Z>
+						<R00>0.70710665</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>0.70710665</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>-0.70710665</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.70710665</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -3615,18 +3615,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">627</int>
 					<Vector3 name="size">
-						<X>0.520668626</X>
-						<Y>0.831298053</Y>
-						<Z>0.735063791</Z>
+						<X>1.52092683</X>
+						<Y>2.42830753</Y>
+						<Z>2.14719725</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX8099FACB30CE41ED980A84309CB332E4">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.01704216</X>
-							<Y>0.341090471</Y>
-							<Z>0.12149851</Z>
+							<X>0.0497819073</X>
+							<Y>0.996360421</Y>
+							<Z>0.354909629</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -3664,9 +3664,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0221214294</X>
-							<Y>-0.013759166</Y>
-							<Z>0.131803215</Z>
+							<X>-0.0646189749</X>
+							<Y>-0.040191941</Y>
+							<Z>0.385010779</Z>
 							<R00>0.7559461</R00>
 							<R01>-0.109655</R01>
 							<R02>0.645384669</R02>
@@ -3704,9 +3704,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.0966824293</X>
-							<Y>-0.234755114</Y>
-							<Z>-0.00911849737</Z>
+							<X>-0.282419294</X>
+							<Y>-0.685743928</Y>
+							<Z>-0.0266360659</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -3718,9 +3718,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.01704216</X>
-							<Y>0.341090471</Y>
-							<Z>0.12149851</Z>
+							<X>0.0497819036</X>
+							<Y>0.996360242</Y>
+							<Z>0.354909629</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -3783,18 +3783,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-230.217377</X>
-						<Y>-4.10033607</Y>
-						<Z>-35.2855606</Z>
-						<R00>1</R00>
+						<X>-93.4850388</X>
+						<Y>13.3147001</Y>
+						<Z>-57.5197487</Z>
+						<R00>0.70710665</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>0.70710665</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>-0.70710665</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.70710665</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -3879,18 +3879,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">568</int>
 					<Vector3 name="size">
-						<X>0.616822004</X>
-						<Y>0.781938672</Y>
-						<Z>0.547410071</Z>
+						<X>1.80180061</X>
+						<Y>2.28412366</Y>
+						<Z>1.59904122</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXFA1B727CB9CC45039F9A19ECA54BA365">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0874179602</X>
-							<Y>0.241229251</Y>
-							<Z>0.00443138182</Z>
+							<X>0.255356878</X>
+							<Y>0.704655468</Y>
+							<Z>0.0129445232</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -3928,9 +3928,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0966824293</X>
-							<Y>-0.234755114</Y>
-							<Z>-0.00911849737</Z>
+							<X>-0.282419324</X>
+							<Y>-0.685743868</Y>
+							<Z>-0.0266360678</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -3968,9 +3968,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.102872431</X>
-							<Y>-0.271516353</Y>
-							<Z>0.0398554727</Z>
+							<X>-0.300500929</X>
+							<Y>-0.793127179</Y>
+							<Z>0.11642193</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -3982,9 +3982,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.0874179602</X>
-							<Y>0.241229251</Y>
-							<Z>0.00443138182</Z>
+							<X>0.255356848</X>
+							<Y>0.70465529</Y>
+							<Z>0.0129445195</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -4047,18 +4047,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-230.027084</X>
-						<Y>-3.58759069</Y>
-						<Z>-35.3209839</Z>
-						<R00>1</R00>
+						<X>-93.1651611</X>
+						<Y>14.8124828</Y>
+						<Z>-57.9859695</Z>
+						<R00>0.70710665</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>0.70710665</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>-0.70710665</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.70710665</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -4143,18 +4143,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">619</int>
 					<Vector3 name="size">
-						<X>0.660544753</X>
-						<Y>0.900973141</Y>
-						<Z>0.570124686</Z>
+						<X>1.92951953</X>
+						<Y>2.63183546</Y>
+						<Z>1.66539299</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX0493304DC6CD47FC9E39633D05C0DCF5">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0864369273</X>
-							<Y>0.233712316</Y>
-							<Z>0.0177535191</Z>
+							<X>0.252491176</X>
+							<Y>0.682697773</Y>
+							<Z>0.0518598594</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -4192,9 +4192,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0772697926</X>
-							<Y>0.37040633</Y>
-							<Z>0.0904771462</Z>
+							<X>0.22571303</X>
+							<Y>1.08199501</Y>
+							<Z>0.264293045</Z>
 							<R00>-0.910520911</R00>
 							<R01>-0.206961811</R01>
 							<R02>-0.357936352</R02>
@@ -4232,9 +4232,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.102872431</X>
-							<Y>-0.271516353</Y>
-							<Z>0.0398554727</Z>
+							<X>-0.300500959</X>
+							<Y>-0.793127239</Y>
+							<Z>0.116421938</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -4272,9 +4272,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.734519243</X>
-							<Y>0.134627759</Y>
-							<Z>0.191986501</Z>
+							<X>-2.14560628</X>
+							<Y>0.393261492</Y>
+							<Z>0.560812294</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -4286,9 +4286,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.0864369273</X>
-							<Y>0.233712316</Y>
-							<Z>0.0177535191</Z>
+							<X>0.252491146</X>
+							<Y>0.682697654</Y>
+							<Z>0.0518598519</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -4351,18 +4351,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-228.617676</X>
-						<Y>-5.587924</Y>
-						<Z>-35.3973045</Z>
-						<R00>1</R00>
+						<X>-90.4116135</X>
+						<Y>8.96930504</Y>
+						<Z>-61.0547981</Z>
+						<R00>0.70710665</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>0.70710665</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>-0.70710665</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.70710665</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -4447,18 +4447,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">386</int>
 					<Vector3 name="size">
-						<X>0.70000267</X>
-						<Y>0.941609979</Y>
-						<Z>0.772946239</Z>
+						<X>2.04478002</X>
+						<Y>2.75053978</Y>
+						<Z>2.25785565</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX2D7D0190CC7C4C809EF89995B499C4FD">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.132915616</X>
-							<Y>0.316614211</Y>
-							<Z>-0.103859335</Z>
+							<X>-0.388260216</X>
+							<Y>0.924862802</Y>
+							<Z>-0.303383797</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -4496,9 +4496,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.112810016</X>
-							<Y>-0.470446736</Y>
-							<Z>-0.0192035213</Z>
+							<X>-0.329529643</X>
+							<Y>-1.37422335</Y>
+							<Z>-0.056095466</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -4551,9 +4551,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.0216298997</X>
-							<Y>-0.334433734</Y>
-							<Z>-0.0248978138</Z>
+							<X>-0.0631831661</X>
+							<Y>-0.976915359</Y>
+							<Z>-0.0727290735</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -4565,9 +4565,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.132915616</X>
-							<Y>0.316614211</Y>
-							<Z>-0.103859335</Z>
+							<X>-0.388260186</X>
+							<Y>0.924862564</Y>
+							<Z>-0.303383797</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -4615,18 +4615,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-228.543594</X>
-						<Y>-6.05383539</Y>
-						<Z>-35.5781021</Z>
-						<R00>1</R00>
+						<X>-90.6320267</X>
+						<Y>7.60832977</Y>
+						<Z>-61.5812721</Z>
+						<R00>0.70710665</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>0.70710665</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>-0.70710665</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.70710665</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -4711,18 +4711,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">411</int>
 					<Vector3 name="size">
-						<X>0.902689874</X>
-						<Y>0.689352751</Y>
-						<Z>1.24201357</Z>
+						<X>2.63685012</X>
+						<Y>2.01367044</Y>
+						<Z>3.62804937</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX7CE51D5266CD409CB21582B868775F46">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.186896563</X>
-							<Y>-0.00453543477</Y>
-							<Z>0.161594778</Z>
+							<X>-0.545944154</X>
+							<Y>-0.0132484734</Y>
+							<Z>0.472034991</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -4760,9 +4760,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.171675771</X>
-							<Y>-0.189110771</Y>
-							<Z>0.56876874</Z>
+							<X>-0.501482606</X>
+							<Y>-0.552412033</Y>
+							<Z>1.66143203</Z>
 							<R00>0.994701922</R00>
 							<R01>-0.00752914976</R01>
 							<R02>-0.102526136</R02>
@@ -4815,9 +4815,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.112810016</X>
-							<Y>-0.470446736</Y>
-							<Z>-0.0192035213</Z>
+							<X>-0.329529643</X>
+							<Y>-1.37422347</Y>
+							<Z>-0.0560954511</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -4829,9 +4829,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.186896563</X>
-							<Y>-0.00453543477</Y>
-							<Z>0.161594778</Z>
+							<X>-0.545944095</X>
+							<Y>-0.0132484725</Y>
+							<Z>0.472034931</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -4879,18 +4879,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-228.728958</X>
-						<Y>-4.93687582</Y>
-						<Z>-35.476265</Z>
-						<R00>1</R00>
+						<X>-90.8045731</X>
+						<Y>10.8710833</Y>
+						<Z>-60.9880333</Z>
+						<R00>0.70710665</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>0.70710665</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>-0.70710665</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.70710665</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -4975,18 +4975,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">423</int>
 					<Vector3 name="size">
-						<X>0.616656601</X>
-						<Y>0.870272517</Y>
-						<Z>0.574387431</Z>
+						<X>1.80131757</X>
+						<Y>2.54215574</Y>
+						<Z>1.67784476</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX3E75E4A8BD0347528CD6305DE2CA6730">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0121439099</X>
-							<Y>0.147474185</Y>
-							<Z>0.0236029699</Z>
+							<X>-0.0354736112</X>
+							<Y>0.430787295</Y>
+							<Z>0.0689467043</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -5024,9 +5024,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0216298997</X>
-							<Y>-0.334433734</Y>
-							<Z>-0.0248978138</Z>
+							<X>-0.0631831661</X>
+							<Y>-0.976915479</Y>
+							<Z>-0.0727290809</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -5079,9 +5079,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.465027601</X>
-							<Y>-0.474122167</Y>
-							<Z>0.102738656</Z>
+							<X>1.35839331</X>
+							<Y>-1.38495946</Y>
+							<Z>0.300110161</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -5093,9 +5093,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.0121439099</X>
-							<Y>0.147474185</Y>
-							<Z>0.0236029699</Z>
+							<X>-0.0354736075</X>
+							<Y>0.430787235</Y>
+							<Z>0.0689466968</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -5143,18 +5143,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-229.206131</X>
-						<Y>-3.48850608</Y>
-						<Z>-35.4952164</Z>
-						<R00>1</R00>
+						<X>-91.8293304</X>
+						<Y>15.1019192</Y>
+						<Z>-60.0415649</Z>
+						<R00>0.70710665</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>0.70710665</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>-0.70710665</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.70710665</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -5239,18 +5239,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">482</int>
 					<Vector3 name="size">
-						<X>1.51156783</X>
-						<Y>1.32560647</Y>
-						<Z>1.35373592</Z>
+						<X>4.41544533</X>
+						<Y>3.87223315</Y>
+						<Z>3.95440245</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX5BA9BBED481B4152B9DB40080ED10F9B">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-6.10097306e-09</X>
-							<Y>-0.10219121</Y>
-							<Z>0.160537124</Z>
+							<X>-1.782157e-08</X>
+							<Y>-0.298511058</Y>
+							<Z>0.468945473</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -5288,9 +5288,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.000222028437</X>
-							<Y>-0.219962448</Y>
-							<Z>-0.610063195</Z>
+							<X>-0.00064856786</X>
+							<Y>-0.642532945</Y>
+							<Z>-1.78205752</Z>
 							<R00>0.999999046</R00>
 							<R01>-0.00139765639</R01>
 							<R02>5.640983e-05</R02>
@@ -5328,9 +5328,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.000172614702</X>
-							<Y>-0.183744073</Y>
-							<Z>0.661466539</Z>
+							<X>-0.000504225318</X>
+							<Y>-0.536735356</Y>
+							<Z>1.93221188</Z>
 							<R00>0.999999046</R00>
 							<R01>-0.00139765639</R01>
 							<R02>5.640983e-05</R02>
@@ -5368,9 +5368,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.426576793</X>
-							<Y>0.412334383</Y>
-							<Z>0.0990707278</Z>
+							<X>-1.2460748</X>
+							<Y>1.20447123</Y>
+							<Z>0.289395809</Z>
 							<R00>0.999999046</R00>
 							<R01>-0.00139765639</R01>
 							<R02>5.640983e-05</R02>
@@ -5408,9 +5408,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00134318089</X>
-							<Y>0.589358747</Y>
-							<Z>0.0579389967</Z>
+							<X>-0.00392357027</X>
+							<Y>1.72157764</Y>
+							<Z>0.169245765</Z>
 							<R00>0.999999046</R00>
 							<R01>-0.00139765639</R01>
 							<R02>5.640983e-05</R02>
@@ -5448,9 +5448,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.425074607</X>
-							<Y>0.41373843</Y>
-							<Z>0.0991479978</Z>
+							<X>1.24168658</X>
+							<Y>1.20857263</Y>
+							<Z>0.289621532</Z>
 							<R00>0.999999046</R00>
 							<R01>-0.00139765639</R01>
 							<R02>5.640983e-05</R02>
@@ -5488,9 +5488,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651085</X>
-							<Y>0.775530159</Y>
-							<Z>0.158333093</Z>
+							<X>-0.00679597724</X>
+							<Y>2.26540327</Y>
+							<Z>0.462507248</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -5528,9 +5528,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.734519243</X>
-							<Y>0.134627759</Y>
-							<Z>0.191986501</Z>
+							<X>-2.14560628</X>
+							<Y>0.393261522</Y>
+							<Z>0.560812354</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -5568,9 +5568,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.733664334</X>
-							<Y>0.136887729</Y>
-							<Z>0.192394525</Z>
+							<X>2.14310908</X>
+							<Y>0.399863183</Y>
+							<Z>0.562004209</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -5608,9 +5608,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-6.10097306e-09</X>
-							<Y>0.724582136</Y>
-							<Z>0.220721364</Z>
+							<X>-1.78215682e-08</X>
+							<Y>2.11657906</Y>
+							<Z>0.64474982</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -5622,9 +5622,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-6.10097306e-09</X>
-							<Y>-0.10219121</Y>
-							<Z>0.160537124</Z>
+							<X>-1.78215682e-08</X>
+							<Y>-0.298510998</Y>
+							<Z>0.468945444</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -5687,18 +5687,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-229.868668</X>
-						<Y>-6.05370235</Y>
-						<Z>-35.5781021</Z>
-						<R00>1</R00>
+						<X>-93.3690414</X>
+						<Y>7.60871696</Y>
+						<Z>-58.8442612</Z>
+						<R00>0.70710665</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>0.70710665</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>-0.70710665</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.70710665</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -5783,18 +5783,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">411</int>
 					<Vector3 name="size">
-						<X>0.902689874</X>
-						<Y>0.689350128</Y>
-						<Z>1.24201357</Z>
+						<X>2.63685012</X>
+						<Y>2.01366305</Y>
+						<Z>3.62804937</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX8799638AC57F41B78002994CA9C7C59E">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.187443882</X>
-							<Y>-0.00468218327</Y>
-							<Z>0.161064953</Z>
+							<X>0.54754287</X>
+							<Y>-0.0136771398</Y>
+							<Z>0.470487386</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -5832,9 +5832,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.172220677</X>
-							<Y>-0.189243078</Y>
-							<Z>0.568265676</Z>
+							<X>0.503074348</X>
+							<Y>-0.55279851</Y>
+							<Z>1.65996253</Z>
 							<R00>0.994700372</R00>
 							<R01>0.0075273579</R01>
 							<R02>0.102540292</R02>
@@ -5872,9 +5872,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.113357335</X>
-							<Y>-0.470544696</Y>
-							<Z>-0.01973336</Z>
+							<X>0.331128478</X>
+							<Y>-1.37450933</Y>
+							<Z>-0.0576431789</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -5886,9 +5886,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.187443882</X>
-							<Y>-0.00468218327</Y>
-							<Z>0.161064953</Z>
+							<X>0.54754281</X>
+							<Y>-0.0136771379</Y>
+							<Z>0.470487297</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -5951,18 +5951,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-228.081161</X>
-						<Y>-4.67618179</Y>
-						<Z>-35.4161758</Z>
-						<R00>1</R00>
+						<X>-89.3424072</X>
+						<Y>11.632596</Y>
+						<Z>-62.2019691</Z>
+						<R00>0.70710665</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>0.70710665</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>-0.70710665</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.70710665</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -6047,18 +6047,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">627</int>
 					<Vector3 name="size">
-						<X>0.520668626</X>
-						<Y>0.831298053</Y>
-						<Z>0.735063791</Z>
+						<X>1.52092683</X>
+						<Y>2.42830753</Y>
+						<Z>2.14719725</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX95007BFBCEA34DB595EF33D1CBF55824">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0155866146</X>
-							<Y>0.344393998</Y>
-							<Z>0.122341134</Z>
+							<X>-0.0455301106</X>
+							<Y>1.00601029</Y>
+							<Z>0.357371032</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -6096,9 +6096,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0245683193</X>
-							<Y>-0.0103447735</Y>
-							<Z>0.132650033</Z>
+							<X>0.0717665926</X>
+							<Y>-0.0302181505</Y>
+							<Z>0.387484431</Z>
 							<R00>0.755866706</R00>
 							<R01>0.112430818</R01>
 							<R02>-0.644999802</R02>
@@ -6136,9 +6136,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.0981379747</X>
-							<Y>-0.231451586</Y>
-							<Z>-0.00827587396</Z>
+							<X>0.286671102</X>
+							<Y>-0.676093817</Y>
+							<Z>-0.0241746753</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -6150,9 +6150,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.0155866146</X>
-							<Y>0.344393998</Y>
-							<Z>0.122341134</Z>
+							<X>-0.0455301031</X>
+							<Y>1.00601017</Y>
+							<Z>0.357371002</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -6215,18 +6215,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-228.385178</X>
-						<Y>-3.58759069</Y>
-						<Z>-35.3209839</Z>
-						<R00>1</R00>
+						<X>-89.773735</X>
+						<Y>14.8124828</Y>
+						<Z>-61.3773918</Z>
+						<R00>0.70710665</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>0.70710665</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>-0.70710665</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.70710665</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -6311,18 +6311,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">619</int>
 					<Vector3 name="size">
-						<X>0.660544753</X>
-						<Y>0.900973141</Y>
-						<Z>0.570124686</Z>
+						<X>1.92951953</X>
+						<Y>2.63183546</Y>
+						<Z>1.66539299</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXE6B82763F17940EFA20B87044464B81D">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0872918367</X>
-							<Y>0.235972285</Y>
-							<Z>0.0181615353</Z>
+							<X>-0.254988432</X>
+							<Y>0.689299405</Y>
+							<Z>0.0530517139</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -6360,9 +6360,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0786092281</X>
-							<Y>0.372189462</Y>
-							<Z>0.0906297192</Z>
+							<X>-0.229625687</X>
+							<Y>1.08720386</Y>
+							<Z>0.264738739</Z>
 							<R00>-0.91003257</R00>
 							<R01>0.209699526</R01>
 							<R02>0.357584625</R02>
@@ -6400,9 +6400,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.103134692</X>
-							<Y>-0.268402457</Y>
-							<Z>0.0403621569</Z>
+							<X>0.301267058</X>
+							<Y>-0.784031272</Y>
+							<Z>0.117902018</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -6440,9 +6440,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.733664334</X>
-							<Y>0.136887729</Y>
-							<Z>0.192394525</Z>
+							<X>2.14310908</X>
+							<Y>0.399863094</Y>
+							<Z>0.562004089</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -6454,9 +6454,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.0872918367</X>
-							<Y>0.235972285</Y>
-							<Z>0.0181615353</Z>
+							<X>-0.254988402</X>
+							<Y>0.689299285</Y>
+							<Z>0.0530517176</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -6519,18 +6519,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-228.194885</X>
-						<Y>-4.10033607</Y>
-						<Z>-35.2855606</Z>
-						<R00>1</R00>
+						<X>-89.307518</X>
+						<Y>13.3147001</Y>
+						<Z>-61.6972733</Z>
+						<R00>0.70710665</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>0.70710665</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>-0.70710665</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.70710665</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -6615,18 +6615,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">568</int>
 					<Vector3 name="size">
-						<X>0.616822004</X>
-						<Y>0.781938672</Y>
-						<Z>0.547410071</Z>
+						<X>1.80180061</X>
+						<Y>2.28412366</Y>
+						<Z>1.59904122</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXCEAE0ED6975A470E8B1E68D28498D819">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0871556997</X>
-							<Y>0.244343147</Y>
-							<Z>0.00493806601</Z>
+							<X>-0.254590809</X>
+							<Y>0.713751554</Y>
+							<Z>0.0144246006</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -6664,9 +6664,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0981379747</X>
-							<Y>-0.231451586</Y>
-							<Z>-0.00827587396</Z>
+							<X>0.286671162</X>
+							<Y>-0.676093936</Y>
+							<Z>-0.0241746791</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -6704,9 +6704,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.103134692</X>
-							<Y>-0.268402457</Y>
-							<Z>0.0403621569</Z>
+							<X>0.301267058</X>
+							<Y>-0.784031153</Y>
+							<Z>0.117901996</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -6718,9 +6718,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.0871556997</X>
-							<Y>0.244343147</Y>
-							<Z>0.00493806601</Z>
+							<X>-0.25459078</X>
+							<Y>0.713751435</Y>
+							<Z>0.0144245978</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -6783,18 +6783,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-229.206131</X>
-						<Y>-1.80480194</Y>
-						<Z>-35.5260506</Z>
-						<R00>1</R00>
+						<X>-91.8930206</X>
+						<Y>20.0201912</Y>
+						<Z>-60.1052551</Z>
+						<R00>0.70710665</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>0.70710665</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>-0.70710665</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.70710665</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -6879,18 +6879,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">31707</int>
 					<Vector3 name="size">
-						<X>2.35711241</X>
-						<Y>2.26433611</Y>
-						<Z>1.91594195</Z>
+						<X>6.88536882</X>
+						<Y>6.61435938</Y>
+						<Z>5.59666348</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX57F41E48F796404A8FBBB0A7AED924F4">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651085</X>
-							<Y>-0.908174038</Y>
-							<Z>0.189167053</Z>
+							<X>-0.00679597724</X>
+							<Y>-2.65286994</Y>
+							<Z>0.552576423</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -6928,9 +6928,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651085</X>
-							<Y>-0.764173985</Y>
-							<Z>-0.839912713</Z>
+							<X>-0.00679597724</X>
+							<Y>-2.2322309</Y>
+							<Z>-2.45347142</Z>
 							<R00>1</R00>
 							<R01>1.79726581e-10</R01>
 							<R02>1.85264781e-12</R02>
@@ -6968,9 +6968,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651061</X>
-							<Y>0.469122171</Y>
-							<Z>0.189167023</Z>
+							<X>-0.00679597678</X>
+							<Y>1.37035418</Y>
+							<Z>0.552576423</Z>
 							<R00>1</R00>
 							<R01>1.79726581e-10</R01>
 							<R02>1.85264781e-12</R02>
@@ -7008,9 +7008,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651061</X>
-							<Y>0.478694439</Y>
-							<Z>0.189167023</Z>
+							<X>-0.00679597678</X>
+							<Y>1.39831579</Y>
+							<Z>0.552576423</Z>
 							<R00>1</R00>
 							<R01>1.79726581e-10</R01>
 							<R02>1.85264781e-12</R02>
@@ -7048,9 +7048,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651085</X>
-							<Y>-0.381206989</Y>
-							<Z>-0.391788125</Z>
+							<X>-0.00679597724</X>
+							<Y>-1.11354494</Y>
+							<Z>-1.14445353</Z>
 							<R00>1</R00>
 							<R01>1.79726581e-10</R01>
 							<R02>1.85264781e-12</R02>
@@ -7088,9 +7088,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.00232651085</X>
-							<Y>0.775530159</Y>
-							<Z>0.158333093</Z>
+							<X>-0.00679597678</X>
+							<Y>2.26540327</Y>
+							<Z>0.462507308</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -7102,9 +7102,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.00232651085</X>
-							<Y>-0.908174038</Y>
-							<Z>0.189167053</Z>
+							<X>-0.00679597678</X>
+							<Y>-2.65286946</Y>
+							<Z>0.552576363</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -7296,7 +7296,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Z>0</Z>
 				</Vector3>
 				<token name="ModelStreamingMode">0</token>
-				<string name="Name">Purple</string>
+				<string name="Name">Tinky-Winky</string>
 				<bool name="NeedsPivotMigration">false</bool>
 				<Ref name="PrimaryPart">RBX714A930B8EB04BC9A4156E79276FB90F</Ref>
 				<int64 name="SourceAssetId">-1</int64>
@@ -7304,18 +7304,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 				<UniqueId name="UniqueId">54662761a03ee7e303ab58e000002d53</UniqueId>
 				<OptionalCoordinateFrame name="WorldPivotData">
 					<CFrame>
-						<X>-224.167328</X>
-						<Y>-3.78939772</Y>
-						<Z>-37.3625488</Z>
-						<R00>1</R00>
+						<X>-166.995651</X>
+						<Y>14.2170887</Y>
+						<Z>-55.3625374</Z>
+						<R00>0.707106709</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>-0.707106709</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>0.707106709</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106709</R22>
 					</CFrame>
 				</OptionalCoordinateFrame>
 			</Properties>
@@ -7332,18 +7332,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">4</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-224.167328</X>
-						<Y>-3.78939772</Y>
-						<Z>-37.3625488</Z>
-						<R00>1</R00>
+						<X>-166.995667</X>
+						<Y>14.2170887</Y>
+						<Z>-55.362545</Z>
+						<R00>0.707106769</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>-0.707106769</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>0.707106769</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106769</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -7410,18 +7410,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="formFactorRaw">1</token>
 					<token name="shape">1</token>
 					<Vector3 name="size">
-						<X>2</X>
-						<Y>2</Y>
-						<Z>1</Z>
+						<X>5.83769178</X>
+						<Y>5.83769178</Y>
+						<Z>2.91884589</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX7A81E7B5C26A4CF087E749FA953735A0">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-6.18667637e-17</X>
-							<Y>-0.904448748</Y>
-							<Z>-8.23043393e-08</Z>
+							<X>-1.80579523e-16</X>
+							<Y>-2.63994622</Y>
+							<Z>-2.40233646e-07</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -9078,18 +9078,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-224.755783</X>
-						<Y>-5.58783627</Y>
-						<Z>-37.3414879</Z>
-						<R00>1</R00>
+						<X>-168.253662</X>
+						<Y>8.9677248</Y>
+						<Z>-56.5336151</Z>
+						<R00>0.707106769</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>-0.707106769</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>0.707106769</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106769</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -9174,18 +9174,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">386</int>
 					<Vector3 name="size">
-						<X>0.70000267</X>
-						<Y>0.941606402</Y>
-						<Z>0.772946239</Z>
+						<X>2.04319978</X>
+						<Y>2.74840426</Y>
+						<Z>2.25611067</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX2598331027CA4DB18B459DAFCB5B692E">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.132965028</X>
-							<Y>0.316551208</Y>
-							<Z>-0.104396112</Z>
+							<X>0.388104409</X>
+							<Y>0.923964202</Y>
+							<Z>-0.30471608</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -9223,9 +9223,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.113357335</X>
-							<Y>-0.470544696</Y>
-							<Z>-0.01973336</Z>
+							<X>0.330872536</X>
+							<Y>-1.37344742</Y>
+							<Z>-0.0575986244</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -9263,9 +9263,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.021679312</X>
-							<Y>-0.334428489</Y>
-							<Z>-0.0254345909</Z>
+							<X>0.0632785633</X>
+							<Y>-0.976145089</Y>
+							<Z>-0.0742396489</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -9277,9 +9277,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.132965028</X>
-							<Y>0.316551208</Y>
-							<Z>-0.104396112</Z>
+							<X>0.388104349</X>
+							<Y>0.923964083</Y>
+							<Z>-0.30471611</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -9342,18 +9342,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-224.167328</X>
-						<Y>-4.31527567</Y>
-						<Z>-37.4995842</Z>
-						<R00>1</R00>
+						<X>-166.71283</X>
+						<Y>12.6821327</Y>
+						<Z>-55.6453781</Z>
+						<R00>0.707106769</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>-0.707106769</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>0.707106769</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106769</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -9438,18 +9438,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">878</int>
 					<Vector3 name="size">
-						<X>1.70292234</X>
-						<Y>1.57309198</Y>
-						<Z>1.68456626</Z>
+						<X>4.97056818</X>
+						<Y>4.59161329</Y>
+						<Z>4.91698885</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXF556100D3ED8460AAEBFE900FF126C21">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-6.18667637e-17</X>
-							<Y>-0.378570914</Y>
-							<Z>0.137034923</Z>
+							<X>-1.80579523e-16</X>
+							<Y>-1.10499012</Y>
+							<Z>0.399983764</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -9487,9 +9487,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-2.21541286e-05</X>
-							<Y>-0.294755816</Y>
-							<Z>0.824706972</Z>
+							<X>-6.46644839e-05</X>
+							<Y>-0.860346735</Y>
+							<Z>2.40719199</Z>
 							<R00>1</R00>
 							<R01>-0.000288655283</R01>
 							<R02>4.0045401e-05</R02>
@@ -9527,9 +9527,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-3.55678094e-05</X>
-							<Y>-0.256172031</Y>
-							<Z>0.151228324</Z>
+							<X>-0.000103816936</X>
+							<Y>-0.747726619</Y>
+							<Z>0.441412091</Z>
 							<R00>1</R00>
 							<R01>-0.000288655283</R01>
 							<R02>4.0045401e-05</R02>
@@ -9567,9 +9567,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-5.79314001e-05</X>
-							<Y>-0.191844344</Y>
-							<Z>-0.814880908</Z>
+							<X>-0.000169092818</X>
+							<Y>-0.559964001</Y>
+							<Z>-2.37851143</Z>
 							<R00>1</R00>
 							<R01>-0.000288655283</R01>
 							<R02>4.0045401e-05</R02>
@@ -9607,9 +9607,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-6.10097306e-09</X>
-							<Y>0.724582136</Y>
-							<Z>0.220721364</Z>
+							<X>-1.78077997e-08</X>
+							<Y>2.1149435</Y>
+							<Z>0.644251466</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -9647,9 +9647,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.464663923</X>
-							<Y>-0.473988354</Y>
-							<Z>0.102762744</Z>
+							<X>-1.35628211</X>
+							<Y>-1.38349903</Y>
+							<Z>0.299948573</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -9687,9 +9687,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.465027601</X>
-							<Y>-0.474122167</Y>
-							<Z>0.102738656</Z>
+							<X>1.35734379</X>
+							<Y>-1.38388956</Y>
+							<Z>0.299878269</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -9727,9 +9727,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-6.18667637e-17</X>
-							<Y>-0.904448748</Y>
-							<Z>-8.23043393e-08</Z>
+							<X>-1.80579523e-16</X>
+							<Y>-2.63994646</Y>
+							<Z>-2.40233646e-07</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -9741,9 +9741,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-6.18667637e-17</X>
-							<Y>-0.378570914</Y>
-							<Z>0.137034923</Z>
+							<X>-1.80579523e-16</X>
+							<Y>-1.10499001</Y>
+							<Z>0.399983793</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -9806,18 +9806,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-224.644501</X>
-						<Y>-4.93685675</Y>
-						<Z>-37.4204483</Z>
-						<R00>1</R00>
+						<X>-167.861008</X>
+						<Y>10.8678341</Y>
+						<Z>-56.4668999</Z>
+						<R00>0.707106769</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>-0.707106769</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>0.707106769</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106769</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -9902,18 +9902,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">423</int>
 					<Vector3 name="size">
-						<X>0.616656601</X>
-						<Y>0.870269179</Y>
-						<Z>0.574387431</Z>
+						<X>1.79992568</X>
+						<Y>2.5401814</Y>
+						<Z>1.67654848</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX58CB502E3EB74C449B9D6407F26D51CB">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0125075877</X>
-							<Y>0.147592545</Y>
-							<Z>0.0236270577</Z>
+							<X>0.0365077183</X>
+							<Y>0.430799842</Y>
+							<Z>0.0689637288</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -9951,9 +9951,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.021679312</X>
-							<Y>-0.334428489</Y>
-							<Z>-0.0254345909</Z>
+							<X>0.0632785633</X>
+							<Y>-0.976145089</Y>
+							<Z>-0.0742396265</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -9991,9 +9991,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.464663923</X>
-							<Y>-0.473988354</Y>
-							<Z>0.102762744</Z>
+							<X>-1.35628211</X>
+							<Y>-1.38349867</Y>
+							<Z>0.299948603</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -10005,9 +10005,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.0125075877</X>
-							<Y>0.147592545</Y>
-							<Z>0.0236270577</Z>
+							<X>0.036507722</X>
+							<Y>0.430799842</Y>
+							<Z>0.0689637288</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -10070,18 +10070,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-225.292297</X>
-						<Y>-4.67617798</Y>
-						<Z>-37.3603592</Z>
-						<R00>1</R00>
+						<X>-169.322052</X>
+						<Y>11.6287146</Y>
+						<Z>-57.6798935</Z>
+						<R00>0.707106769</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>-0.707106769</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>0.707106769</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106769</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -10166,18 +10166,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">627</int>
 					<Vector3 name="size">
-						<X>0.520668626</X>
-						<Y>0.831298053</Y>
-						<Z>0.735063791</Z>
+						<X>1.51975143</X>
+						<Y>2.42643094</Y>
+						<Z>2.14553785</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX2BBBB5B3129241B0A9EB07D5265326F4">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.01704216</X>
-							<Y>0.341090471</Y>
-							<Z>0.12149851</Z>
+							<X>0.0497434326</X>
+							<Y>0.995590448</Y>
+							<Z>0.354635358</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -10215,9 +10215,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0221214294</X>
-							<Y>-0.013759166</Y>
-							<Z>0.131803215</Z>
+							<X>-0.0645690411</X>
+							<Y>-0.0401608832</Y>
+							<Z>0.384713203</Z>
 							<R00>0.7559461</R00>
 							<R01>-0.109655</R01>
 							<R02>0.645384669</R02>
@@ -10255,9 +10255,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.0966824293</X>
-							<Y>-0.234755114</Y>
-							<Z>-0.00911849737</Z>
+							<X>-0.282201082</X>
+							<Y>-0.685213923</Y>
+							<Z>-0.0266154837</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -10269,9 +10269,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.01704216</X>
-							<Y>0.341090471</Y>
-							<Z>0.12149851</Z>
+							<X>0.0497434288</X>
+							<Y>0.995590448</Y>
+							<Z>0.354635358</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -10334,18 +10334,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-225.178574</X>
-						<Y>-4.10033226</Y>
-						<Z>-37.229744</Z>
-						<R00>1</R00>
+						<X>-169.356918</X>
+						<Y>13.3095188</Y>
+						<Z>-57.1755867</Z>
+						<R00>0.707106769</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>-0.707106769</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>0.707106769</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106769</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -10430,18 +10430,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">568</int>
 					<Vector3 name="size">
-						<X>0.616822004</X>
-						<Y>0.781938672</Y>
-						<Z>0.547410071</Z>
+						<X>1.80040848</X>
+						<Y>2.28235865</Y>
+						<Z>1.59780562</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX5C2DD0B2F8774EC1BF47C57D90277B21">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0874179602</X>
-							<Y>0.241229251</Y>
-							<Z>0.00443138182</Z>
+							<X>0.255159557</X>
+							<Y>0.70411104</Y>
+							<Z>0.0129345171</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -10479,9 +10479,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0966824293</X>
-							<Y>-0.234755114</Y>
-							<Z>-0.00911849737</Z>
+							<X>-0.282201052</X>
+							<Y>-0.685213983</Y>
+							<Z>-0.0266154818</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -10519,9 +10519,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.102872431</X>
-							<Y>-0.271516353</Y>
-							<Z>0.0398554727</Z>
+							<X>-0.300268769</X>
+							<Y>-0.792514384</Y>
+							<Z>0.116331972</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -10533,9 +10533,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.0874179602</X>
-							<Y>0.241229251</Y>
-							<Z>0.00443138182</Z>
+							<X>0.255159527</X>
+							<Y>0.704110861</Y>
+							<Z>0.012934518</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -10598,18 +10598,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-224.988281</X>
-						<Y>-3.58758688</Y>
-						<Z>-37.2651672</Z>
-						<R00>1</R00>
+						<X>-168.891052</X>
+						<Y>14.8061438</Y>
+						<Z>-56.8559532</Z>
+						<R00>0.707106769</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>-0.707106769</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>0.707106769</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106769</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -10694,18 +10694,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">619</int>
 					<Vector3 name="size">
-						<X>0.660544753</X>
-						<Y>0.900973141</Y>
-						<Z>0.570124686</Z>
+						<X>1.92802846</X>
+						<Y>2.62980175</Y>
+						<Z>1.66410613</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX3EFB8E28F616434EB4DB03449EDDFB96">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0864369273</X>
-							<Y>0.233712316</Y>
-							<Z>0.0177535191</Z>
+							<X>0.252296031</X>
+							<Y>0.682170212</Y>
+							<Z>0.0518197753</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -10743,9 +10743,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0772697926</X>
-							<Y>0.37040633</Y>
-							<Z>0.0904771462</Z>
+							<X>0.225538597</X>
+							<Y>1.081159</Y>
+							<Z>0.264088809</Z>
 							<R00>-0.910520911</R00>
 							<R01>-0.206961811</R01>
 							<R02>-0.357936352</R02>
@@ -10783,9 +10783,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.102872431</X>
-							<Y>-0.271516353</Y>
-							<Z>0.0398554727</Z>
+							<X>-0.300268739</X>
+							<Y>-0.792514384</Y>
+							<Z>0.11633195</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -10823,9 +10823,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.734519243</X>
-							<Y>0.134627759</Y>
-							<Z>0.191986501</Z>
+							<X>-2.14394808</X>
+							<Y>0.392957628</Y>
+							<Z>0.560378969</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -10837,9 +10837,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.0864369273</X>
-							<Y>0.233712316</Y>
-							<Z>0.0177535191</Z>
+							<X>0.252296031</X>
+							<Y>0.682170212</Y>
+							<Z>0.0518197827</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -10902,18 +10902,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-223.578873</X>
-						<Y>-5.58792019</Y>
-						<Z>-37.3414879</Z>
-						<R00>1</R00>
+						<X>-165.8246</X>
+						<Y>8.96748066</Y>
+						<Z>-54.104538</Z>
+						<R00>0.707106769</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>-0.707106769</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>0.707106769</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106769</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -10998,18 +10998,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">386</int>
 					<Vector3 name="size">
-						<X>0.70000267</X>
-						<Y>0.941609979</Y>
-						<Z>0.772946239</Z>
+						<X>2.04319978</X>
+						<Y>2.74841452</Y>
+						<Z>2.25611067</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXAF8D9C1EBAE049D38443D2545B8708ED">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.132915616</X>
-							<Y>0.316614211</Y>
-							<Z>-0.103859335</Z>
+							<X>-0.387960136</X>
+							<Y>0.924148083</Y>
+							<Z>-0.303149313</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -11047,9 +11047,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.112810016</X>
-							<Y>-0.470446736</Y>
-							<Z>-0.0192035213</Z>
+							<X>-0.329275012</X>
+							<Y>-1.37316155</Y>
+							<Z>-0.0560521074</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -11102,9 +11102,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.0216298997</X>
-							<Y>-0.334433734</Y>
-							<Z>-0.0248978138</Z>
+							<X>-0.063134335</X>
+							<Y>-0.976160347</Y>
+							<Z>-0.0726728737</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -11116,9 +11116,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.132915616</X>
-							<Y>0.316614211</Y>
-							<Z>-0.103859335</Z>
+							<X>-0.387960166</X>
+							<Y>0.924147964</Y>
+							<Z>-0.303149313</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -11166,18 +11166,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-223.504791</X>
-						<Y>-6.05383158</Y>
-						<Z>-37.5222855</Z>
-						<R00>1</R00>
+						<X>-165.298538</X>
+						<Y>7.60755777</Y>
+						<Z>-54.3247833</Z>
+						<R00>0.707106769</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>-0.707106769</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>0.707106769</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106769</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -11262,18 +11262,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">411</int>
 					<Vector3 name="size">
-						<X>0.902689874</X>
-						<Y>0.689352751</Y>
-						<Z>1.24201357</Z>
+						<X>2.63481259</X>
+						<Y>2.01211452</Y>
+						<Z>3.62524629</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX7F14B3C6446342E3A4474A19E0DEF623">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.186896563</X>
-							<Y>-0.00453543477</Y>
-							<Z>0.161594778</Z>
+							<X>-0.545522273</X>
+							<Y>-0.0132382354</Y>
+							<Z>0.471670181</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -11311,9 +11311,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.171675771</X>
-							<Y>-0.189110771</Y>
-							<Z>0.56876874</Z>
+							<X>-0.501095057</X>
+							<Y>-0.551985145</Y>
+							<Z>1.66014802</Z>
 							<R00>0.994701922</R00>
 							<R01>-0.00752914976</R01>
 							<R02>-0.102526136</R02>
@@ -11366,9 +11366,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.112810016</X>
-							<Y>-0.470446736</Y>
-							<Z>-0.0192035213</Z>
+							<X>-0.329274982</X>
+							<Y>-1.3731612</Y>
+							<Z>-0.0560521111</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -11380,9 +11380,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.186896563</X>
-							<Y>-0.00453543477</Y>
-							<Z>0.161594778</Z>
+							<X>-0.545522213</X>
+							<Y>-0.0132382335</Y>
+							<Z>0.471670181</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -11430,18 +11430,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-223.690155</X>
-						<Y>-4.93687201</Y>
-						<Z>-37.4204483</Z>
-						<R00>1</R00>
+						<X>-165.891312</X>
+						<Y>10.8677893</Y>
+						<Z>-54.4971962</Z>
+						<R00>0.707106769</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>-0.707106769</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>0.707106769</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106769</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -11526,18 +11526,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">423</int>
 					<Vector3 name="size">
-						<X>0.616656601</X>
-						<Y>0.870272517</Y>
-						<Z>0.574387431</Z>
+						<X>1.79992568</X>
+						<Y>2.54019141</Y>
+						<Z>1.67654848</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXD18B90BA73504D289144191A42DA5109">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0121439099</X>
-							<Y>0.147474185</Y>
-							<Z>0.0236029699</Z>
+							<X>-0.0354461968</X>
+							<Y>0.430454433</Y>
+							<Z>0.0688934177</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -11575,9 +11575,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0216298997</X>
-							<Y>-0.334433734</Y>
-							<Z>-0.0248978138</Z>
+							<X>-0.063134335</X>
+							<Y>-0.976160467</Y>
+							<Z>-0.0726728663</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -11630,9 +11630,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.465027601</X>
-							<Y>-0.474122167</Y>
-							<Z>0.102738656</Z>
+							<X>1.35734379</X>
+							<Y>-1.38388932</Y>
+							<Z>0.299878299</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -11644,9 +11644,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.0121439099</X>
-							<Y>0.147474185</Y>
-							<Z>0.0236029699</Z>
+							<X>-0.0354461968</X>
+							<Y>0.430454314</Y>
+							<Z>0.0688934252</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -11694,18 +11694,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-224.167328</X>
-						<Y>-3.48850226</Y>
-						<Z>-37.4393997</Z>
-						<R00>1</R00>
+						<X>-166.837051</X>
+						<Y>15.095356</Y>
+						<Z>-55.5211601</Z>
+						<R00>0.707106769</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>-0.707106769</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>0.707106769</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106769</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -11790,18 +11790,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">482</int>
 					<Vector3 name="size">
-						<X>1.51156783</X>
-						<Y>1.32560647</Y>
-						<Z>1.35373592</Z>
+						<X>4.41203356</X>
+						<Y>3.86924124</Y>
+						<Z>3.95134664</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX03FEFA7DBC334EDA87940E842A8074D6">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-6.10097306e-09</X>
-							<Y>-0.10219121</Y>
-							<Z>0.160537124</Z>
+							<X>-1.78077997e-08</X>
+							<Y>-0.298280388</Y>
+							<Z>0.468583018</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -11839,9 +11839,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.000222028437</X>
-							<Y>-0.219962448</Y>
-							<Z>-0.610063195</Z>
+							<X>-0.000648066693</X>
+							<Y>-0.642036498</Y>
+							<Z>-1.78068006</Z>
 							<R00>0.999999046</R00>
 							<R01>-0.00139765639</R01>
 							<R02>5.640983e-05</R02>
@@ -11879,9 +11879,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.000172614702</X>
-							<Y>-0.183744073</Y>
-							<Z>0.661466539</Z>
+							<X>-0.000503835676</X>
+							<Y>-0.536320567</Y>
+							<Z>1.93071842</Z>
 							<R00>0.999999046</R00>
 							<R01>-0.00139765639</R01>
 							<R02>5.640983e-05</R02>
@@ -11919,9 +11919,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.426576793</X>
-							<Y>0.412334383</Y>
-							<Z>0.0990707278</Z>
+							<X>-1.24511182</X>
+							<Y>1.20354044</Y>
+							<Z>0.289172143</Z>
 							<R00>0.999999046</R00>
 							<R01>-0.00139765639</R01>
 							<R02>5.640983e-05</R02>
@@ -11959,9 +11959,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00134318089</X>
-							<Y>0.589358747</Y>
-							<Z>0.0579389967</Z>
+							<X>-0.00392053789</X>
+							<Y>1.72024727</Y>
+							<Z>0.169114962</Z>
 							<R00>0.999999046</R00>
 							<R01>-0.00139765639</R01>
 							<R02>5.640983e-05</R02>
@@ -11999,9 +11999,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.425074607</X>
-							<Y>0.41373843</Y>
-							<Z>0.0991479978</Z>
+							<X>1.24072719</X>
+							<Y>1.20763874</Y>
+							<Z>0.289397657</Z>
 							<R00>0.999999046</R00>
 							<R01>-0.00139765639</R01>
 							<R02>5.640983e-05</R02>
@@ -12039,9 +12039,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651085</X>
-							<Y>0.775530159</Y>
-							<Z>0.158333093</Z>
+							<X>-0.00679072505</X>
+							<Y>2.2636528</Y>
+							<Z>0.462149769</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -12079,9 +12079,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.734519243</X>
-							<Y>0.134627759</Y>
-							<Z>0.191986501</Z>
+							<X>-2.14394808</X>
+							<Y>0.392957687</Y>
+							<Z>0.56037885</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -12119,9 +12119,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.733664334</X>
-							<Y>0.136887729</Y>
-							<Z>0.192394525</Z>
+							<X>2.14145303</X>
+							<Y>0.399554193</Y>
+							<Z>0.56156987</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -12159,9 +12159,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-6.10097306e-09</X>
-							<Y>0.724582136</Y>
-							<Z>0.220721364</Z>
+							<X>-1.78077979e-08</X>
+							<Y>2.1149435</Y>
+							<Z>0.644251585</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -12173,9 +12173,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-6.10097306e-09</X>
-							<Y>-0.10219121</Y>
-							<Z>0.160537124</Z>
+							<X>-1.78077979e-08</X>
+							<Y>-0.298280358</Y>
+							<Z>0.468583107</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -12238,18 +12238,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-224.829865</X>
-						<Y>-6.05369854</Y>
-						<Z>-37.5222855</Z>
-						<R00>1</R00>
+						<X>-168.033417</X>
+						<Y>7.60794401</Y>
+						<Z>-57.0596809</Z>
+						<R00>0.707106769</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>-0.707106769</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>0.707106769</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106769</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -12334,18 +12334,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">411</int>
 					<Vector3 name="size">
-						<X>0.902689874</X>
-						<Y>0.689350128</Y>
-						<Z>1.24201357</Z>
+						<X>2.63481259</X>
+						<Y>2.01210666</Y>
+						<Z>3.62524629</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXABAC31F3A7FD4B0DAA608881333B76FE">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.187443882</X>
-							<Y>-0.00468218327</Y>
-							<Z>0.161064953</Z>
+							<X>0.547119737</X>
+							<Y>-0.0136665711</Y>
+							<Z>0.470123678</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -12383,9 +12383,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.172220677</X>
-							<Y>-0.189243078</Y>
-							<Z>0.568265676</Z>
+							<X>0.502685547</X>
+							<Y>-0.552371383</Y>
+							<Z>1.6586796</Z>
 							<R00>0.994700372</R00>
 							<R01>0.0075273579</R01>
 							<R02>0.102540292</R02>
@@ -12423,9 +12423,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.113357335</X>
-							<Y>-0.470544696</Y>
-							<Z>-0.01973336</Z>
+							<X>0.330872566</X>
+							<Y>-1.37344742</Y>
+							<Z>-0.0575986318</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -12437,9 +12437,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.187443882</X>
-							<Y>-0.00468218327</Y>
-							<Z>0.161064953</Z>
+							<X>0.547119737</X>
+							<Y>-0.0136665702</Y>
+							<Z>0.470123768</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -12502,18 +12502,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-223.042358</X>
-						<Y>-4.67617798</Y>
-						<Z>-37.3603592</Z>
-						<R00>1</R00>
+						<X>-164.678314</X>
+						<Y>11.6287146</Y>
+						<Z>-53.0361633</Z>
+						<R00>0.707106769</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>-0.707106769</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>0.707106769</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106769</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -12598,18 +12598,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">627</int>
 					<Vector3 name="size">
-						<X>0.520668626</X>
-						<Y>0.831298053</Y>
-						<Z>0.735063791</Z>
+						<X>1.51975143</X>
+						<Y>2.42643094</Y>
+						<Z>2.14553785</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXC48206F92ACC4043BF61D74BFD9C438B">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0155866146</X>
-							<Y>0.344393998</Y>
-							<Z>0.122341134</Z>
+							<X>-0.0454949215</X>
+							<Y>1.00523293</Y>
+							<Z>0.357094854</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -12647,9 +12647,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0245683193</X>
-							<Y>-0.0103447735</Y>
-							<Z>0.132650033</Z>
+							<X>0.0717111304</X>
+							<Y>-0.0301947985</Y>
+							<Z>0.387184918</Z>
 							<R00>0.755866706</R00>
 							<R01>0.112430818</R01>
 							<R02>-0.644999802</R02>
@@ -12687,9 +12687,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.0981379747</X>
-							<Y>-0.231451586</Y>
-							<Z>-0.00827587396</Z>
+							<X>0.286449611</X>
+							<Y>-0.675571501</Y>
+							<Z>-0.0241559967</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -12701,9 +12701,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.0155866146</X>
-							<Y>0.344393998</Y>
-							<Z>0.122341134</Z>
+							<X>-0.0454949215</X>
+							<Y>1.00523293</Y>
+							<Z>0.357094884</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -12766,18 +12766,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-223.346375</X>
-						<Y>-3.58758688</Y>
-						<Z>-37.2651672</Z>
-						<R00>1</R00>
+						<X>-165.502258</X>
+						<Y>14.8061438</Y>
+						<Z>-53.4671555</Z>
+						<R00>0.707106769</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>-0.707106769</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>0.707106769</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106769</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -12862,18 +12862,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">619</int>
 					<Vector3 name="size">
-						<X>0.660544753</X>
-						<Y>0.900973141</Y>
-						<Z>0.570124686</Z>
+						<X>1.92802846</X>
+						<Y>2.62980175</Y>
+						<Z>1.66410613</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX8D65026E085E48D4AB9F2D23E44F6145">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0872918367</X>
-							<Y>0.235972285</Y>
-							<Z>0.0181615353</Z>
+							<X>-0.254791379</X>
+							<Y>0.688766658</Y>
+							<Z>0.0530107133</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -12911,9 +12911,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0786092281</X>
-							<Y>0.372189462</Y>
-							<Z>0.0906297192</Z>
+							<X>-0.229448199</X>
+							<Y>1.08636355</Y>
+							<Z>0.264534116</Z>
 							<R00>-0.91003257</R00>
 							<R01>0.209699526</R01>
 							<R02>0.357584625</R02>
@@ -12951,9 +12951,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.103134692</X>
-							<Y>-0.268402457</Y>
-							<Z>0.0403621569</Z>
+							<X>0.301034272</X>
+							<Y>-0.783425331</Y>
+							<Z>0.117810883</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -12991,9 +12991,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.733664334</X>
-							<Y>0.136887729</Y>
-							<Z>0.192394525</Z>
+							<X>2.14145303</X>
+							<Y>0.399554133</Y>
+							<Z>0.56156987</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -13005,9 +13005,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.0872918367</X>
-							<Y>0.235972285</Y>
-							<Z>0.0181615353</Z>
+							<X>-0.254791379</X>
+							<Y>0.688766658</Y>
+							<Z>0.053010717</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -13070,18 +13070,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-223.156082</X>
-						<Y>-4.10033226</Y>
-						<Z>-37.229744</Z>
-						<R00>1</R00>
+						<X>-165.182617</X>
+						<Y>13.3095188</Y>
+						<Z>-53.001297</Z>
+						<R00>0.707106769</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>-0.707106769</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>0.707106769</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106769</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -13166,18 +13166,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">568</int>
 					<Vector3 name="size">
-						<X>0.616822004</X>
-						<Y>0.781938672</Y>
-						<Z>0.547410071</Z>
+						<X>1.80040848</X>
+						<Y>2.28235865</Y>
+						<Z>1.59780562</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXA4A1B04C2B9048BDAD5735C5B171E2AD">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0871556997</X>
-							<Y>0.244343147</Y>
-							<Z>0.00493806601</Z>
+							<X>-0.254394025</X>
+							<Y>0.713199973</Y>
+							<Z>0.0144134508</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -13215,9 +13215,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0981379747</X>
-							<Y>-0.231451586</Y>
-							<Z>-0.00827587396</Z>
+							<X>0.286449611</X>
+							<Y>-0.675571501</Y>
+							<Z>-0.0241559967</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -13255,9 +13255,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.103134692</X>
-							<Y>-0.268402457</Y>
-							<Z>0.0403621569</Z>
+							<X>0.301034212</X>
+							<Y>-0.783425331</Y>
+							<Z>0.117810912</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -13269,9 +13269,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.0871556997</X>
-							<Y>0.244343147</Y>
-							<Z>0.00493806601</Z>
+							<X>-0.254394054</X>
+							<Y>0.713199914</Y>
+							<Z>0.0144134508</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -13334,18 +13334,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-224.167328</X>
-						<Y>-1.80143023</Y>
-						<Z>-37.4702339</Z>
-						<R00>1</R00>
+						<X>-166.773407</X>
+						<Y>20.019659</Y>
+						<Z>-55.5848007</Z>
+						<R00>0.707106769</R00>
 						<R01>0</R01>
-						<R02>0</R02>
+						<R02>-0.707106769</R02>
 						<R10>0</R10>
 						<R11>1</R11>
 						<R12>0</R12>
-						<R20>0</R20>
+						<R20>0.707106769</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>0.707106769</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -13430,18 +13430,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">31437</int>
 					<Vector3 name="size">
-						<X>2.35711241</X>
-						<Y>2.27107143</Y>
-						<Z>1.91594195</Z>
+						<X>6.88004732</X>
+						<Y>6.62890816</Y>
+						<Z>5.59233952</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXDC7A5D3E527540DFAFFF77C84F6983C4">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651085</X>
-							<Y>-0.911541939</Y>
-							<Z>0.189167053</Z>
+							<X>-0.00679072505</X>
+							<Y>-2.66065025</Y>
+							<Z>0.552149355</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -13479,9 +13479,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651085</X>
-							<Y>-0.767541885</Y>
-							<Z>-0.839912713</Z>
+							<X>-0.00679072505</X>
+							<Y>-2.24033642</Y>
+							<Z>-2.45157528</Z>
 							<R00>1</R00>
 							<R01>1.79726581e-10</R01>
 							<R02>1.85264781e-12</R02>
@@ -13519,9 +13519,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651061</X>
-							<Y>0.465754271</Y>
-							<Z>0.189167023</Z>
+							<X>-0.00679072505</X>
+							<Y>1.35946488</Y>
+							<Z>0.552149296</Z>
 							<R00>1</R00>
 							<R01>1.79726581e-10</R01>
 							<R02>1.85264781e-12</R02>
@@ -13559,9 +13559,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651061</X>
-							<Y>0.475326538</Y>
-							<Z>0.189167023</Z>
+							<X>-0.00679072505</X>
+							<Y>1.38740492</Y>
+							<Z>0.552149296</Z>
 							<R00>1</R00>
 							<R01>1.79726581e-10</R01>
 							<R02>1.85264781e-12</R02>
@@ -13599,9 +13599,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651085</X>
-							<Y>-0.38457489</Y>
-							<Z>-0.391788125</Z>
+							<X>-0.00679072505</X>
+							<Y>-1.12251484</Y>
+							<Z>-1.14356887</Z>
 							<R00>1</R00>
 							<R01>1.79726581e-10</R01>
 							<R02>1.85264781e-12</R02>
@@ -13639,9 +13639,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.00232651085</X>
-							<Y>0.775530159</Y>
-							<Z>0.158333093</Z>
+							<X>-0.00679072551</X>
+							<Y>2.2636528</Y>
+							<Z>0.462149888</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -13653,9 +13653,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.00232651085</X>
-							<Y>-0.911541939</Y>
-							<Z>0.189167053</Z>
+							<X>-0.00679072551</X>
+							<Y>-2.66065001</Y>
+							<Z>0.552149415</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -13836,7 +13836,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Z>0</Z>
 				</Vector3>
 				<token name="ModelStreamingMode">0</token>
-				<string name="Name">StarterCharacter</string>
+				<string name="Name">Po</string>
 				<bool name="NeedsPivotMigration">false</bool>
 				<Ref name="PrimaryPart">RBX277C26BCCC5C452C86ECF723A3FAE2E0</Ref>
 				<int64 name="SourceAssetId">-1</int64>
@@ -13844,10 +13844,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 				<UniqueId name="UniqueId">54662761a03ee7e303ab58e000002e3d</UniqueId>
 				<OptionalCoordinateFrame name="WorldPivotData">
 					<CFrame>
-						<X>-219.128571</X>
-						<Y>-3.7894063</Y>
-						<Z>-39.3067322</Z>
-						<R00>1</R00>
+						<X>-60.426487</X>
+						<Y>16.0879478</Y>
+						<Z>-161.793869</Z>
+						<R00>-0.999997854</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
@@ -13855,7 +13855,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>-0.999997854</R22>
 					</CFrame>
 				</OptionalCoordinateFrame>
 			</Properties>
@@ -13872,10 +13872,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">4</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-219.128571</X>
-						<Y>-3.7894063</Y>
-						<Z>-39.3067322</Z>
-						<R00>1</R00>
+						<X>-60.426487</X>
+						<Y>16.0879478</Y>
+						<Z>-161.793869</Z>
+						<R00>-0.999999285</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
@@ -13883,7 +13883,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>-0.999999285</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -13950,18 +13950,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="formFactorRaw">1</token>
 					<token name="shape">1</token>
 					<Vector3 name="size">
-						<X>2</X>
-						<Y>2</Y>
-						<Z>1</Z>
+						<X>7.23147345</X>
+						<Y>7.23147345</Y>
+						<Z>3.61573672</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXDDB6653CBEBC43C08843A33EAD3BEB0C">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-6.18667637e-17</X>
-							<Y>-0.904448748</Y>
-							<Z>-8.23043393e-08</Z>
+							<X>-2.2369399e-16</X>
+							<Y>-3.27024937</Y>
+							<Z>-2.97590873e-07</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -15618,10 +15618,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-219.717026</X>
-						<Y>-5.58784485</Y>
-						<Z>-39.2856712</Z>
-						<R00>1</R00>
+						<X>-58.2987823</X>
+						<Y>9.58526802</Y>
+						<Z>-161.870026</Z>
+						<R00>-0.999999285</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
@@ -15629,7 +15629,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>-0.999999285</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -15714,18 +15714,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">386</int>
 					<Vector3 name="size">
-						<X>0.70000267</X>
-						<Y>0.941606402</Y>
-						<Z>0.772946239</Z>
+						<X>2.53102565</X>
+						<Y>3.4046011</Y>
+						<Z>2.79477024</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXF06D780113BB4EF993E0EF6FEDE0E725">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.132965028</X>
-							<Y>0.316551208</Y>
-							<Z>-0.104396112</Z>
+							<X>0.480766654</X>
+							<Y>1.14456606</Y>
+							<Z>-0.377468944</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -15763,9 +15763,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.113357335</X>
-							<Y>-0.470544696</Y>
-							<Z>-0.01973336</Z>
+							<X>0.409870386</X>
+							<Y>-1.70136619</Y>
+							<Z>-0.0713506564</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -15803,9 +15803,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.021679312</X>
-							<Y>-0.334428489</Y>
-							<Z>-0.0254345909</Z>
+							<X>0.0783867016</X>
+							<Y>-1.20920563</Y>
+							<Z>-0.0919648111</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -15817,9 +15817,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.132965028</X>
-							<Y>0.316551208</Y>
-							<Z>-0.104396112</Z>
+							<X>0.480766624</X>
+							<Y>1.14456618</Y>
+							<Z>-0.377468944</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -15882,10 +15882,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-219.128571</X>
-						<Y>-4.31528425</Y>
-						<Z>-39.4437675</Z>
-						<R00>1</R00>
+						<X>-60.426487</X>
+						<Y>14.186512</Y>
+						<Z>-161.298386</Z>
+						<R00>-0.999999285</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
@@ -15893,7 +15893,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>-0.999999285</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -15978,18 +15978,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">878</int>
 					<Vector3 name="size">
-						<X>1.70292234</X>
-						<Y>1.57309198</Y>
-						<Z>1.68456626</Z>
+						<X>6.15731907</X>
+						<Y>5.68788671</Y>
+						<Z>6.09094858</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX3DED1E04FD6D4A8B888BD118F0CCBD9B">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-6.18667637e-17</X>
-							<Y>-0.378570914</Y>
-							<Z>0.137034923</Z>
+							<X>-2.2369399e-16</X>
+							<Y>-1.36881304</Y>
+							<Z>0.495482326</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -16027,9 +16027,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-2.21541286e-05</X>
-							<Y>-0.294755816</Y>
-							<Z>0.824706972</Z>
+							<X>-8.01035203e-05</X>
+							<Y>-1.06575954</Y>
+							<Z>2.98192406</Z>
 							<R00>1</R00>
 							<R01>-0.000288655283</R01>
 							<R02>4.0045401e-05</R02>
@@ -16067,9 +16067,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-3.55678094e-05</X>
-							<Y>-0.256172031</Y>
-							<Z>0.151228324</Z>
+							<X>-0.000128603875</X>
+							<Y>-0.926250875</Y>
+							<Z>0.546801925</Z>
 							<R00>1</R00>
 							<R01>-0.000288655283</R01>
 							<R02>4.0045401e-05</R02>
@@ -16107,9 +16107,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-5.79314001e-05</X>
-							<Y>-0.191844344</Y>
-							<Z>-0.814880908</Z>
+							<X>-0.000209464735</X>
+							<Y>-0.693658829</Y>
+							<Z>-2.94639587</Z>
 							<R00>1</R00>
 							<R01>-0.000288655283</R01>
 							<R02>4.0045401e-05</R02>
@@ -16147,9 +16147,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-6.10097306e-09</X>
-							<Y>0.724582136</Y>
-							<Z>0.220721364</Z>
+							<X>-2.20595187e-08</X>
+							<Y>2.6198988</Y>
+							<Z>0.79807049</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -16187,9 +16187,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.464663923</X>
-							<Y>-0.473988354</Y>
-							<Z>0.102762744</Z>
+							<X>-1.68010294</X>
+							<Y>-1.7138176</Y>
+							<Z>0.371563107</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -16227,9 +16227,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.465027601</X>
-							<Y>-0.474122167</Y>
-							<Z>0.102738656</Z>
+							<X>1.6814177</X>
+							<Y>-1.71430123</Y>
+							<Z>0.371475995</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -16267,9 +16267,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-6.18667637e-17</X>
-							<Y>-0.904448748</Y>
-							<Z>-8.23043393e-08</Z>
+							<X>-2.2369399e-16</X>
+							<Y>-3.27024913</Y>
+							<Z>-2.97590873e-07</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -16281,9 +16281,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-6.18667637e-17</X>
-							<Y>-0.378570914</Y>
-							<Z>0.137034923</Z>
+							<X>-2.2369399e-16</X>
+							<Y>-1.36881304</Y>
+							<Z>0.495482355</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -16346,10 +16346,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-219.605743</X>
-						<Y>-4.93686533</Y>
-						<Z>-39.3646317</Z>
-						<R00>1</R00>
+						<X>-58.7011604</X>
+						<Y>11.9390392</Y>
+						<Z>-161.584518</Z>
+						<R00>-0.999999285</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
@@ -16357,7 +16357,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>-0.999999285</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -16442,18 +16442,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">423</int>
 					<Vector3 name="size">
-						<X>0.616656601</X>
-						<Y>0.870269179</Y>
-						<Z>0.574387431</Z>
+						<X>2.22966814</X>
+						<Y>3.14666462</Y>
+						<Z>2.07683372</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXF43A61CD6EB74252A184A9D267F8F65C">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0125075877</X>
-							<Y>0.147592545</Y>
-							<Z>0.0236270577</Z>
+							<X>0.0452241562</X>
+							<Y>0.533655882</Y>
+							<Z>0.0854292363</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -16491,9 +16491,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.021679312</X>
-							<Y>-0.334428489</Y>
-							<Z>-0.0254345909</Z>
+							<X>0.0783867016</X>
+							<Y>-1.20920563</Y>
+							<Z>-0.0919648036</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -16531,9 +16531,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.464663923</X>
-							<Y>-0.473988354</Y>
-							<Z>0.102762744</Z>
+							<X>-1.68010283</X>
+							<Y>-1.71381736</Y>
+							<Z>0.371563137</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -16545,9 +16545,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.0125075877</X>
-							<Y>0.147592545</Y>
-							<Z>0.0236270577</Z>
+							<X>0.0452241525</X>
+							<Y>0.533655882</Y>
+							<Z>0.0854292437</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -16610,10 +16610,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-220.25354</X>
-						<Y>-4.67618656</Y>
-						<Z>-39.3045425</Z>
-						<R00>1</R00>
+						<X>-56.3588905</X>
+						<Y>12.8815842</Y>
+						<Z>-161.801773</Z>
+						<R00>-0.999999285</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
@@ -16621,7 +16621,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>-0.999999285</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -16706,18 +16706,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">627</int>
 					<Vector3 name="size">
-						<X>0.520668626</X>
-						<Y>0.831298053</Y>
-						<Z>0.735063791</Z>
+						<X>1.8826009</X>
+						<Y>3.00575519</Y>
+						<Z>2.65779757</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXC274DB8F46394D05806CC097E0008DFB">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.01704216</X>
-							<Y>0.341090471</Y>
-							<Z>0.12149851</Z>
+							<X>0.0616199747</X>
+							<Y>1.23329365</Y>
+							<Z>0.439306736</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -16755,9 +16755,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0221214294</X>
-							<Y>-0.013759166</Y>
-							<Z>0.131803215</Z>
+							<X>-0.0799852908</X>
+							<Y>-0.0497495383</Y>
+							<Z>0.476565808</Z>
 							<R00>0.7559461</R00>
 							<R01>-0.109655</R01>
 							<R02>0.645384669</R02>
@@ -16795,9 +16795,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.0966824293</X>
-							<Y>-0.234755114</Y>
-							<Z>-0.00911849737</Z>
+							<X>-0.349578261</X>
+							<Y>-0.848812878</Y>
+							<Z>-0.0329700932</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -16809,9 +16809,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.01704216</X>
-							<Y>0.341090471</Y>
-							<Z>0.12149851</Z>
+							<X>0.0616199784</X>
+							<Y>1.23329353</Y>
+							<Z>0.439306736</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -16874,10 +16874,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-220.139816</X>
-						<Y>-4.10034084</Y>
-						<Z>-39.1739273</Z>
-						<R00>1</R00>
+						<X>-56.7700882</X>
+						<Y>14.9636908</Y>
+						<Z>-162.274048</Z>
+						<R00>-0.999999285</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
@@ -16885,7 +16885,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>-0.999999285</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -16970,18 +16970,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">568</int>
 					<Vector3 name="size">
-						<X>0.616822004</X>
-						<Y>0.781938672</Y>
-						<Z>0.547410071</Z>
+						<X>2.23026633</X>
+						<Y>2.82728457</Y>
+						<Z>1.97929084</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX97FE3B66933C4FF3AD88FA01EEFEE7D1">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0874179602</X>
-							<Y>0.241229251</Y>
-							<Z>0.00443138182</Z>
+							<X>0.316080421</X>
+							<Y>0.872221649</Y>
+							<Z>0.0160227139</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -17019,9 +17019,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0966824293</X>
-							<Y>-0.234755114</Y>
-							<Z>-0.00911849737</Z>
+							<X>-0.349578291</X>
+							<Y>-0.848812878</Y>
+							<Z>-0.0329700932</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -17059,9 +17059,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.102872431</X>
-							<Y>-0.271516353</Y>
-							<Z>0.0398554727</Z>
+							<X>-0.371959686</X>
+							<Y>-0.981731832</Y>
+							<Z>0.144106925</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -17073,9 +17073,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.0874179602</X>
-							<Y>0.241229251</Y>
-							<Z>0.00443138182</Z>
+							<X>0.316080391</X>
+							<Y>0.872221708</Y>
+							<Z>0.0160227139</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -17138,10 +17138,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-219.949524</X>
-						<Y>-3.58759546</Y>
-						<Z>-39.2093506</Z>
-						<R00>1</R00>
+						<X>-57.4581261</X>
+						<Y>16.8176441</Y>
+						<Z>-162.145966</Z>
+						<R00>-0.999999285</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
@@ -17149,7 +17149,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>-0.999999285</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -17234,18 +17234,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">619</int>
 					<Vector3 name="size">
-						<X>0.660544753</X>
-						<Y>0.900973141</Y>
-						<Z>0.570124686</Z>
+						<X>2.38835621</X>
+						<Y>3.25768185</Y>
+						<Z>2.06142116</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX4D9817A7EA3F4A7AAEA58392C337DB7A">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0864369273</X>
-							<Y>0.233712316</Y>
-							<Z>0.0177535191</Z>
+							<X>0.312533259</X>
+							<Y>0.845042348</Y>
+							<Z>0.0641920641</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -17283,9 +17283,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0772697926</X>
-							<Y>0.37040633</Y>
-							<Z>0.0904771462</Z>
+							<X>0.279387295</X>
+							<Y>1.33929217</Y>
+							<Z>0.327141613</Z>
 							<R00>-0.910520911</R00>
 							<R01>-0.206961811</R01>
 							<R02>-0.357936352</R02>
@@ -17323,9 +17323,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.102872431</X>
-							<Y>-0.271516353</Y>
-							<Z>0.0398554727</Z>
+							<X>-0.371959716</X>
+							<Y>-0.981731892</Y>
+							<Z>0.144106939</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -17363,9 +17363,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.734519243</X>
-							<Y>0.134627759</Y>
-							<Z>0.191986501</Z>
+							<X>-2.65582895</X>
+							<Y>0.486778617</Y>
+							<Z>0.69417274</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -17377,9 +17377,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.0864369273</X>
-							<Y>0.233712316</Y>
-							<Z>0.0177535191</Z>
+							<X>0.312533259</X>
+							<Y>0.845042408</Y>
+							<Z>0.0641920641</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -17442,10 +17442,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-218.540115</X>
-						<Y>-5.58792543</Y>
-						<Z>-39.2856712</Z>
-						<R00>1</R00>
+						<X>-62.5541916</X>
+						<Y>9.58497524</Y>
+						<Z>-161.870026</Z>
+						<R00>-0.999999285</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
@@ -17453,7 +17453,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>-0.999999285</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -17538,18 +17538,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">386</int>
 					<Vector3 name="size">
-						<X>0.70000267</X>
-						<Y>0.941623211</Y>
-						<Z>0.772946239</Z>
+						<X>2.53102565</X>
+						<Y>3.40466189</Y>
+						<Z>2.79477024</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXF1ADCCCAD0F7434F96B8E29F7D7CE218">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.132915616</X>
-							<Y>0.316612989</Y>
-							<Z>-0.103859335</Z>
+							<X>-0.480587959</X>
+							<Y>1.14478958</Y>
+							<Z>-0.375528127</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -17587,9 +17587,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.112810016</X>
-							<Y>-0.470444947</Y>
-							<Z>-0.0192035213</Z>
+							<X>-0.407891452</X>
+							<Y>-1.70100534</Y>
+							<Z>-0.0694348887</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -17642,9 +17642,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.0216298997</X>
-							<Y>-0.334432453</Y>
-							<Z>-0.0248978138</Z>
+							<X>-0.0782080367</X>
+							<Y>-1.20921993</Y>
+							<Z>-0.0900239721</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -17656,9 +17656,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.132915616</X>
-							<Y>0.316612989</Y>
-							<Z>-0.103859335</Z>
+							<X>-0.480587989</X>
+							<Y>1.14478958</Y>
+							<Z>-0.375528097</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -17706,10 +17706,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-218.466034</X>
-						<Y>-6.05383492</Y>
-						<Z>-39.4664688</Z>
-						<R00>1</R00>
+						<X>-62.8220673</X>
+						<Y>7.90036869</Y>
+						<Z>-161.216309</Z>
+						<R00>-0.999999285</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
@@ -17717,7 +17717,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>-0.999999285</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -17802,18 +17802,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">411</int>
 					<Vector3 name="size">
-						<X>0.902689874</X>
-						<Y>0.689362466</Y>
-						<Z>1.24201357</Z>
+						<X>3.26388907</X>
+						<Y>2.49255347</Y>
+						<Z>4.49079418</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX5B59CF86E76C40688BA0FFCC3A771188">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.186896563</X>
-							<Y>-0.00453541754</Y>
-							<Z>0.161594778</Z>
+							<X>-0.675768912</X>
+							<Y>-0.0163988788</Y>
+							<Z>0.584284365</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -17851,9 +17851,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.171675771</X>
-							<Y>-0.189110056</Y>
-							<Z>0.56876874</Z>
+							<X>-0.620734572</X>
+							<Y>-0.683772326</Y>
+							<Z>2.05651832</Z>
 							<R00>0.994701922</R00>
 							<R01>-0.00752914976</R01>
 							<R02>-0.102526136</R02>
@@ -17906,9 +17906,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.112810016</X>
-							<Y>-0.470444947</Y>
-							<Z>-0.0192035213</Z>
+							<X>-0.407891452</X>
+							<Y>-1.70100546</Y>
+							<Z>-0.0694348961</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -17920,9 +17920,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.186896563</X>
-							<Y>-0.00453541754</Y>
-							<Z>0.161594778</Z>
+							<X>-0.675768971</X>
+							<Y>-0.0163988788</Y>
+							<Z>0.584284306</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -17970,10 +17970,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-218.651398</X>
-						<Y>-4.93688011</Y>
-						<Z>-39.3646317</Z>
-						<R00>1</R00>
+						<X>-62.1518135</X>
+						<Y>11.9389849</Y>
+						<Z>-161.584518</Z>
+						<R00>-0.999999285</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
@@ -17981,7 +17981,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>-0.999999285</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -18066,18 +18066,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">423</int>
 					<Vector3 name="size">
-						<X>0.616656601</X>
-						<Y>0.870284736</Y>
-						<Z>0.574387431</Z>
+						<X>2.22966814</X>
+						<Y>3.14672065</Y>
+						<Z>2.07683372</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXA177559579E74F9A9ED75C7236102E47">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0121439099</X>
-							<Y>0.147473618</Y>
-							<Z>0.0236029699</Z>
+							<X>-0.0439091921</X>
+							<Y>0.533225834</Y>
+							<Z>0.0853421465</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -18115,9 +18115,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0216298997</X>
-							<Y>-0.334432453</Y>
-							<Z>-0.0248978138</Z>
+							<X>-0.0782080442</X>
+							<Y>-1.20921981</Y>
+							<Z>-0.0900239572</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -18170,9 +18170,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.465027601</X>
-							<Y>-0.474122167</Y>
-							<Z>0.102738656</Z>
+							<X>1.6814177</X>
+							<Y>-1.71430147</Y>
+							<Z>0.371475995</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -18184,9 +18184,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.0121439099</X>
-							<Y>0.147473618</Y>
-							<Z>0.0236029699</Z>
+							<X>-0.0439091884</X>
+							<Y>0.533225894</Y>
+							<Z>0.085342139</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -18234,10 +18234,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-219.128571</X>
-						<Y>-3.48851085</Y>
-						<Z>-39.3835831</Z>
-						<R00>1</R00>
+						<X>-60.426487</X>
+						<Y>17.1759071</Y>
+						<Z>-161.515991</Z>
+						<R00>-0.999999285</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
@@ -18245,7 +18245,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>-0.999999285</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -18330,18 +18330,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">482</int>
 					<Vector3 name="size">
-						<X>1.51156783</X>
-						<Y>1.32560647</Y>
-						<Z>1.35373592</Z>
+						<X>5.46543217</X>
+						<Y>4.79304457</Y>
+						<Z>4.89475298</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX5DFE1F70056F42519760DE89820024AF">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-6.10097306e-09</X>
-							<Y>-0.10219121</Y>
-							<Z>0.160537124</Z>
+							<X>-2.20595187e-08</X>
+							<Y>-0.369496584</Y>
+							<Z>0.580460072</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -18379,9 +18379,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.000222028437</X>
-							<Y>-0.219962448</Y>
-							<Z>-0.610063195</Z>
+							<X>-0.000802796567</X>
+							<Y>-0.795326471</Y>
+							<Z>-2.20582843</Z>
 							<R00>0.999999046</R00>
 							<R01>-0.00139765639</R01>
 							<R02>5.640983e-05</R02>
@@ -18419,9 +18419,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.000172614702</X>
-							<Y>-0.183744073</Y>
-							<Z>0.661466539</Z>
+							<X>-0.000624129432</X>
+							<Y>-0.664370358</Y>
+							<Z>2.39168954</Z>
 							<R00>0.999999046</R00>
 							<R01>-0.00139765639</R01>
 							<R02>5.640983e-05</R02>
@@ -18459,9 +18459,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.426576793</X>
-							<Y>0.412334383</Y>
-							<Z>0.0990707278</Z>
+							<X>-1.54238975</X>
+							<Y>1.49089289</Y>
+							<Z>0.358213723</Z>
 							<R00>0.999999046</R00>
 							<R01>-0.00139765639</R01>
 							<R02>5.640983e-05</R02>
@@ -18499,9 +18499,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00134318089</X>
-							<Y>0.589358747</Y>
-							<Z>0.0579389967</Z>
+							<X>-0.00485658972</X>
+							<Y>2.13096666</Y>
+							<Z>0.209492207</Z>
 							<R00>0.999999046</R00>
 							<R01>-0.00139765639</R01>
 							<R02>5.640983e-05</R02>
@@ -18539,9 +18539,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.425074607</X>
-							<Y>0.41373843</Y>
-							<Z>0.0991479978</Z>
+							<X>1.53695822</X>
+							<Y>1.49596965</Y>
+							<Z>0.358493149</Z>
 							<R00>0.999999046</R00>
 							<R01>-0.00139765639</R01>
 							<R02>5.640983e-05</R02>
@@ -18579,9 +18579,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651085</X>
-							<Y>0.775530159</Y>
-							<Z>0.158333093</Z>
+							<X>-0.00841205288</X>
+							<Y>2.80411339</Y>
+							<Z>0.572490871</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -18619,9 +18619,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.734519243</X>
-							<Y>0.134627759</Y>
-							<Z>0.191986501</Z>
+							<X>-2.65582871</X>
+							<Y>0.486778617</Y>
+							<Z>0.6941728</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -18659,9 +18659,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.733664334</X>
-							<Y>0.136887729</Y>
-							<Z>0.192394525</Z>
+							<X>2.65273786</X>
+							<Y>0.494950056</Y>
+							<Z>0.695648134</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -18699,9 +18699,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-6.10097306e-09</X>
-							<Y>0.724582136</Y>
-							<Z>0.220721364</Z>
+							<X>-2.20595187e-08</X>
+							<Y>2.61989903</Y>
+							<Z>0.79807055</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -18713,9 +18713,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-6.10097306e-09</X>
-							<Y>-0.10219121</Y>
-							<Z>0.160537124</Z>
+							<X>-2.20595187e-08</X>
+							<Y>-0.369496584</Y>
+							<Z>0.580460131</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -18778,10 +18778,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-219.791107</X>
-						<Y>-6.05370712</Y>
-						<Z>-39.4664688</Z>
-						<R00>1</R00>
+						<X>-58.0309067</X>
+						<Y>7.90083122</Y>
+						<Z>-161.216309</Z>
+						<R00>-0.999999285</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
@@ -18789,7 +18789,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>-0.999999285</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -18874,18 +18874,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">411</int>
 					<Vector3 name="size">
-						<X>0.902689874</X>
-						<Y>0.689350128</Y>
-						<Z>1.24201357</Z>
+						<X>3.26388907</X>
+						<Y>2.49250889</Y>
+						<Z>4.49079418</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXA6520EA75E2B4CA59BCAFB1564DD5F23">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.187443882</X>
-							<Y>-0.00468218327</Y>
-							<Z>0.161064953</Z>
+							<X>0.677747905</X>
+							<Y>-0.0169295445</Y>
+							<Z>0.582368612</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -18923,9 +18923,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.172220677</X>
-							<Y>-0.189243078</Y>
-							<Z>0.568265676</Z>
+							<X>0.622704804</X>
+							<Y>-0.684253275</Y>
+							<Z>2.05469966</Z>
 							<R00>0.994700372</R00>
 							<R01>0.0075273579</R01>
 							<R02>0.102540292</R02>
@@ -18963,9 +18963,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.113357335</X>
-							<Y>-0.470544696</Y>
-							<Z>-0.01973336</Z>
+							<X>0.409870386</X>
+							<Y>-1.70136607</Y>
+							<Z>-0.071350649</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -18977,9 +18977,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>0.187443882</X>
-							<Y>-0.00468218327</Y>
-							<Z>0.161064953</Z>
+							<X>0.677747905</X>
+							<Y>-0.0169295445</Y>
+							<Z>0.582368612</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -19042,10 +19042,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-218.003601</X>
-						<Y>-4.67618656</Y>
-						<Z>-39.3045425</Z>
-						<R00>1</R00>
+						<X>-64.4940872</X>
+						<Y>12.8815842</Y>
+						<Z>-161.801773</Z>
+						<R00>-0.999999285</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
@@ -19053,7 +19053,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>-0.999999285</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -19138,18 +19138,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">627</int>
 					<Vector3 name="size">
-						<X>0.520668626</X>
-						<Y>0.831298053</Y>
-						<Z>0.735063791</Z>
+						<X>1.8826009</X>
+						<Y>3.00575519</Y>
+						<Z>2.65779757</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX760A142E2374409BAD0697EC52481FB4">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0155866146</X>
-							<Y>0.344393998</Y>
-							<Z>0.122341134</Z>
+							<X>-0.0563571081</X>
+							<Y>1.24523842</Y>
+							<Z>0.442353427</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -19187,9 +19187,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0245683193</X>
-							<Y>-0.0103447735</Y>
-							<Z>0.132650033</Z>
+							<X>0.0888325945</X>
+							<Y>-0.0374039859</Y>
+							<Z>0.479627728</Z>
 							<R00>0.755866706</R00>
 							<R01>0.112430818</R01>
 							<R02>-0.644999802</R02>
@@ -19227,9 +19227,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.0981379747</X>
-							<Y>-0.231451586</Y>
-							<Z>-0.00827587396</Z>
+							<X>0.354841173</X>
+							<Y>-0.836868167</Y>
+							<Z>-0.0299233906</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -19241,9 +19241,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.0155866146</X>
-							<Y>0.344393998</Y>
-							<Z>0.122341134</Z>
+							<X>-0.0563571043</X>
+							<Y>1.2452383</Y>
+							<Z>0.442353427</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -19306,10 +19306,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-218.307617</X>
-						<Y>-3.58759546</Y>
-						<Z>-39.2093506</Z>
-						<R00>1</R00>
+						<X>-63.3948479</X>
+						<Y>16.8176441</Y>
+						<Z>-162.145966</Z>
+						<R00>-0.999999285</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
@@ -19317,7 +19317,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>-0.999999285</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -19402,18 +19402,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">619</int>
 					<Vector3 name="size">
-						<X>0.660544753</X>
-						<Y>0.900973141</Y>
-						<Z>0.570124686</Z>
+						<X>2.38835621</X>
+						<Y>3.25768185</Y>
+						<Z>2.06142116</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXBA6476A566D7434B84765DA36A0C391A">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0872918367</X>
-							<Y>0.235972285</Y>
-							<Z>0.0181615353</Z>
+							<X>-0.315624386</X>
+							<Y>0.853213847</Y>
+							<Z>0.0656673461</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -19451,9 +19451,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0786092281</X>
-							<Y>0.372189462</Y>
-							<Z>0.0906297192</Z>
+							<X>-0.284230351</X>
+							<Y>1.34573936</Y>
+							<Z>0.327693284</Z>
 							<R00>-0.91003257</R00>
 							<R01>0.209699526</R01>
 							<R02>0.357584625</R02>
@@ -19491,9 +19491,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.103134692</X>
-							<Y>-0.268402457</Y>
-							<Z>0.0403621569</Z>
+							<X>0.372907966</X>
+							<Y>-0.970472991</Y>
+							<Z>0.145938963</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -19531,9 +19531,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.733664334</X>
-							<Y>0.136887729</Y>
-							<Z>0.192394525</Z>
+							<X>2.65273762</X>
+							<Y>0.494950116</Y>
+							<Z>0.695648134</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -19545,9 +19545,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.0872918367</X>
-							<Y>0.235972285</Y>
-							<Z>0.0181615353</Z>
+							<X>-0.315624356</X>
+							<Y>0.853213847</Y>
+							<Z>0.0656673387</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -19610,10 +19610,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-218.117325</X>
-						<Y>-4.10034084</Y>
-						<Z>-39.1739273</Z>
-						<R00>1</R00>
+						<X>-64.0828857</X>
+						<Y>14.9636908</Y>
+						<Z>-162.274048</Z>
+						<R00>-0.999999285</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
@@ -19621,7 +19621,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>-0.999999285</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -19706,18 +19706,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">568</int>
 					<Vector3 name="size">
-						<X>0.616822004</X>
-						<Y>0.781938672</Y>
-						<Z>0.547410071</Z>
+						<X>2.23026633</X>
+						<Y>2.82728457</Y>
+						<Z>1.97929084</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBXD5E02EECE86644FB8EA70E72630DE69C">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.0871556997</X>
-							<Y>0.244343147</Y>
-							<Z>0.00493806601</Z>
+							<X>-0.315132141</X>
+							<Y>0.883480728</Y>
+							<Z>0.0178547502</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -19755,9 +19755,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>0.0981379747</X>
-							<Y>-0.231451586</Y>
-							<Z>-0.00827587396</Z>
+							<X>0.354841202</X>
+							<Y>-0.836868167</Y>
+							<Z>-0.0299233906</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -19795,9 +19795,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>0.103134692</X>
-							<Y>-0.268402457</Y>
-							<Z>0.0403621569</Z>
+							<X>0.372907966</X>
+							<Y>-0.970472753</Y>
+							<Z>0.145938963</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -19809,9 +19809,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.0871556997</X>
-							<Y>0.244343147</Y>
-							<Z>0.00493806601</Z>
+							<X>-0.315132141</X>
+							<Y>0.883480668</Y>
+							<Z>0.0178547502</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -19874,10 +19874,10 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<token name="BottomSurface">0</token>
 					<token name="BottomSurfaceInput">0</token>
 					<CoordinateFrame name="CFrame">
-						<X>-219.128571</X>
-						<Y>-1.80048537</Y>
-						<Z>-39.4144173</Z>
-						<R00>1</R00>
+						<X>-60.426487</X>
+						<Y>23.2793636</Y>
+						<Z>-161.40451</Z>
+						<R00>-0.999999285</R00>
 						<R01>0</R01>
 						<R02>0</R02>
 						<R10>0</R10>
@@ -19885,7 +19885,7 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 						<R12>0</R12>
 						<R20>0</R20>
 						<R21>0</R21>
-						<R22>1</R22>
+						<R22>-0.999999285</R22>
 					</CoordinateFrame>
 					<bool name="CanCollide">true</bool>
 					<bool name="CanQuery">true</bool>
@@ -19970,18 +19970,18 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					</Vector3>
 					<int name="VertexCount">31391</int>
 					<Vector3 name="size">
-						<X>2.35711241</X>
-						<Y>2.27297831</Y>
-						<Z>1.91594195</Z>
+						<X>8.52269936</X>
+						<Y>8.21849155</Y>
+						<Z>6.92754221</Z>
 					</Vector3>
 				</Properties>
 				<Item class="Attachment" referent="RBX849F10C928DB4E448C17DA34F660F768">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651085</X>
-							<Y>-0.912495375</Y>
-							<Z>0.189167053</Z>
+							<X>-0.00841205288</X>
+							<Y>-3.29934406</Y>
+							<Z>0.683978438</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -20019,9 +20019,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651085</X>
-							<Y>-0.768495321</Y>
-							<Z>-0.839912713</Z>
+							<X>-0.00841205288</X>
+							<Y>-2.77867723</Y>
+							<Z>-3.03690386</Z>
 							<R00>1</R00>
 							<R01>1.79726581e-10</R01>
 							<R02>1.85264781e-12</R02>
@@ -20059,9 +20059,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651061</X>
-							<Y>0.464800835</Y>
-							<Z>0.189167023</Z>
+							<X>-0.00841205195</X>
+							<Y>1.68059778</Y>
+							<Z>0.68397826</Z>
 							<R00>1</R00>
 							<R01>1.79726581e-10</R01>
 							<R02>1.85264781e-12</R02>
@@ -20099,9 +20099,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651061</X>
-							<Y>0.474373102</Y>
-							<Z>0.189167023</Z>
+							<X>-0.00841205195</X>
+							<Y>1.71520853</Y>
+							<Z>0.68397826</Z>
 							<R00>1</R00>
 							<R01>1.79726581e-10</R01>
 							<R02>1.85264781e-12</R02>
@@ -20139,9 +20139,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="CFrame">
-							<X>-0.00232651085</X>
-							<Y>-0.385528326</Y>
-							<Z>-0.391788125</Z>
+							<X>-0.00841205288</X>
+							<Y>-1.39396918</Y>
+							<Z>-1.41660297</Z>
 							<R00>1</R00>
 							<R01>1.79726581e-10</R01>
 							<R02>1.85264781e-12</R02>
@@ -20179,9 +20179,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<CoordinateFrame name="C0">
-							<X>-0.00232651085</X>
-							<Y>0.775530159</Y>
-							<Z>0.158333093</Z>
+							<X>-0.00841205288</X>
+							<Y>2.80411339</Y>
+							<Z>0.572490931</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
@@ -20193,9 +20193,9 @@ gcLgc4RKxr21zq2UlJSM]]></BinaryString>
 							<R22>1</R22>
 						</CoordinateFrame>
 						<CoordinateFrame name="C1">
-							<X>-0.00232651085</X>
-							<Y>-0.912495375</Y>
-							<Z>0.189167053</Z>
+							<X>-0.00841205288</X>
+							<Y>-3.29934359</Y>
+							<Z>0.683978438</Z>
 							<R00>1</R00>
 							<R01>0</R01>
 							<R02>0</R02>
